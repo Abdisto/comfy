@@ -3,56 +3,6 @@
   transition: opacity 150ms;
 }
 
-:root {
-  --disable-animations: 2s channel-unread infinite;
-  --user-buttons-spacing: 8px;
-  --user-buttons-color: rgba(194,166,200,1);
-  --avatar-radius: 5px;
-  --status-radius: 3px;
-  --server-radius: 8px;
-  --colored-emoji: grayscale(0%);
-  --mention-color: #f04747;
-  --unread-color: #7289da;
-  --mention-color-bar: #c66262;
-  --mention-color-background: #c662621f;
-  --mention-color-hover: #c6626226;
-  --chat-buttons:  rgba(194,166,200,1);
-  --online: #43b581;
-  --iddle: #faa61a;
-  --dnd: #f04747;
-  --offline: #747f8d;
-  --streaming: #593695;
-  --playing: #a3425d;
-  --role-circle: 5px;
-  --discord-logo: none;
-}
-
-.theme-dark {
-  --background-primary: #23283d;
-  --background-secondary: #1e2233;
-  --background-secondary-alt: #191f2e;
-  --background-tertiary: #101320;
-  --background-accent: #9f72da;
-
-  --modal-background: #23283d;
-  --background-mobile-primary: #23283d;
-  --background-mobile-secondary: #1e2233;
-  --channeltextarea-background: #191f2e;
-  --background-message-hover: transparent;
-  --background-modifier-hover: #00000010;
-  --background-modifier-active: #0000001a;
-  --background-modifier-selected: #0000001f;
-  --deprecated-card-bg: #12141f63;
-  --background-floating: #101320;
-  --deprecated-quickswitcher-input-background: #101320;
-  --elevation-low: none;
-  --scrollbar-auto-thumb: #121722;
-  --scrollbar-auto-track: #191f2e;
-  --scrollbar-thin-thumb: #141925;
-  --activity-card-background: #101320;
-  --input-background: #1e2233;
-}
-
 :root .root_f9a4c9,
 :root .footer_f9a4c9,
 :root .modal_ec75c1 {
