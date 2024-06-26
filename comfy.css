@@ -18,6 +18,7 @@
 @import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css";
 
 
+
 :root {
   --disable-animations: 2s channel-unread infinite;
   --user-buttons-spacing: 8px;
@@ -180,49 +181,49 @@
 .typing__6fd1d .text_ca54e9 { display: flex; align-items: center;}
 
 .typing__6fd1d .text_ca54e9 strong { 
-  margin: 0 3px;
-  line-height: 21px;
-  animation: slideUp 300ms;
+    margin: 0 3px;
+    line-height: 21px;
+    animation: slideUp 300ms;
 }
 @keyframes slideUp {
-  0% { margin-top: -50px;}
-  100% { margin-top: 0;}
+    0% { margin-top: -50px;}
+    100% { margin-top: 0;}
 }
 
 :root {
-  /* anything selected in menu */
-  --background-modifier-selected: var(--background-mentioned);
-
-  /* This isn't shown in my screenshot but I think it looks cool */
-  /* --interactive-active: #6FD6A2; */
+    /* anything selected in menu */
+    --background-modifier-selected: var(--background-mentioned);
   
-  /* channel colors */
-  --hovering-over-channel: var(--background-mentioned);
-  --channel-icon: #a3425d;
-  --channel-text-area-placeholder: #6d728ab9;
-
-  /* 1. when mentioning a channel bg color */
-  --mention-background: var(--background-mentioned);
-
-  /* 1. when pinged, foreground color */
-  --mention-foreground: var(--main-color);
-
-  /* 1. when pinged, background color  */
-  --background-mentioned: #a3425d17;
-  --background-mentioned-hover: #a3425d21;
-
-  /* 2. color of message you're replying to */
-  --background-message-highlight: var(--background-secondary-alt);
-
-  /* 2. when hovering over a message you're replying to */
-  --brand-experiment-10a: #a3425d21;
-
-  /* outline of reactions */
-  --brand-experiment: #a3425d49; 
-  --brand-experiment-15a: var(--background-mentioned-hover);
-
-  /* makes muted text color a little more blue */
-  --interactive-muted: #565c7bb9;  
+    /* This isn't shown in my screenshot but I think it looks cool */
+    /* --interactive-active: #6FD6A2; */
+    
+    /* channel colors */
+    --hovering-over-channel: var(--background-mentioned);
+    --channel-icon: #a3425d;
+    --channel-text-area-placeholder: #6d728ab9;
+  
+    /* 1. when mentioning a channel bg color */
+    --mention-background: var(--background-mentioned);
+  
+    /* 1. when pinged, foreground color */
+    --mention-foreground: var(--main-color);
+  
+    /* 1. when pinged, background color  */
+    --background-mentioned: #a3425d17;
+    --background-mentioned-hover: #a3425d21;
+  
+    /* 2. color of message you're replying to */
+    --background-message-highlight: var(--background-secondary-alt);
+  
+    /* 2. when hovering over a message you're replying to */
+    --brand-experiment-10a: #a3425d21;
+  
+    /* outline of reactions */
+    --brand-experiment: #a3425d49; 
+    --brand-experiment-15a: var(--background-mentioned-hover);
+  
+    /* makes muted text color a little more blue */
+    --interactive-muted: #565c7bb9;  
 }
 
 /* 1. changing the border color of in-chat mention + reply */
@@ -251,4 +252,26 @@
 /* 6. change color of new message date to main color */
 :root .isUnread-3Lojb- .content-3spvdd {
   color: var(--main-color) !important; 
+}
+
+/*  From HereToHelp  */
+/* recolor the "Send Message" button*/
+.activeButtonChild-2hgLAO {
+  color: var(--main-color);
+}
+:root .button-y6hemj:focus-within .activeButtonChild-2hgLAO, 
+:root .button-y6hemj:focus .activeButtonChild-2hgLAO, 
+:root .button-y6hemj:hover .activeButtonChild-2hgLAO {
+  color: var(--main-color);
+}
+
+/* add hover colors to everything*/
+:root .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+  background: var(--background-mentioned) !important;
+  background-color: var(--background-mentioned) !important;
+}
+
+.message-2CShn3.cozyMessage-1DWF9U.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz.hasThread-3h-KJV:not(.isSystemMessage-QNv9ZH) > 
+.contents-2MsGLg > .messageContent-2t3eCI {
+  padding-left: 100px;
 }
