@@ -660,10 +660,6 @@
 :root .userPopoutOuter_c69a7b .userPopoutInner_c69a7b {
   max-height: unset !important;
 }
-:root .userPopoutOuter_c69a7b .bannerSVGWrapper_b32cc2 {
-  overflow: visible;
-  min-height: 120px !important;
-}
 :root .userPopoutOuter_c69a7b .bannerSVGWrapper_b32cc2 foreignObject {
   mask: unset;
 }
