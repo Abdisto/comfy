@@ -1,0 +1,359 @@
+/**
+* @name Comfy
+* @author Nyria#3863
+* @description Stay comfy while talking to your friends
+* @invite rtBQX5D3bD
+* @version 2.4
+* @donate https://ko-fi.com/nyria
+*/
+
+@import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
+
+@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
+
+@import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
+
+@import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css";
+
+:root {
+  --disable-animations: 2s channel-unread infinite;
+  --user-buttons-spacing: 8px;
+  --user-buttons-color: rgba(194,166,200,1);
+  --avatar-radius: 5px;
+  --status-radius: 3px;
+  --server-radius: 8px;
+  --colored-emoji: grayscale(0%);
+  --mention-color: #f04747;
+  --unread-color: #7289da;
+  --mention-color-bar: #c66262;
+  --mention-color-background: #c662621f;
+  --mention-color-hover: #c6626226;
+  --chat-buttons:  rgba(194,166,200,1);
+  --online: #43b581;
+  --iddle: #faa61a;
+  --dnd: #f04747;
+  --offline: #747f8d;
+  --streaming: #593695;
+  --playing: #a3425d;
+  --role-circle: 5px;
+  --discord-logo: none;
+}
+
+.theme-dark {
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-accent: #9f72da;
+
+  --modal-background: #23283d;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #191f2e;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #00000010;
+  --background-modifier-active: #0000001a;
+  --background-modifier-selected: #0000001f;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #101320;
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191f2e;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+  --input-background: #1e2233;
+}
+
+/* Avatar go back to the left side */
+:root .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 {position: static;}
+:root .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 > .avatar_f8541f {
+  width: 32px !important;
+  height: 32px !important;
+}
+:root .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 > .avatar_f8541f foreignObject {
+  width: 32px !important;
+  height: 32px !important;
+}
+:root .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 > .avatar_f8541f .pointerEvents__33f6a {
+  x:  22px;
+  y: 22px;
+}
+:root section.panels__58331 > .container_ca50b9 { 
+  height: 52px;
+  justify-content: space-between;
+}
+:root section.panels__58331 > .container_ca50b9 > .flex_f5fbb7 {
+  position: static;
+  flex-direction: row;
+  width: unset;
+  z-index: unset;
+  background: transparent;
+  padding: 0;
+}
+:root .panels__58331 > .container_ca50b9 > .avatarWrapper_ba5175 > .avatar_f8541f + .nameTag__0e320 {display: block;max-width: 85px;}
+:root section.panels__58331 > .container_ca50b9 > .flex_f5fbb7 > .button__4f306 { margin: auto;}
+:root nav.guilds__2b93a .scroller-2TZvBN, :root nav.guilds__2b93a .scroller__3d071 { padding-bottom: 0;}
+:root .chat__52833 .form__13a2c { padding-left: 16px;}
+:root .chat__52833 .form__13a2c .channelTextArea__2e60f .scrollableContainer__33e06::after, :root .chat__52833 .form__13a2c .wrapper_fbbb73::after { content: none;} 
+/* Username role background */
+
+.cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us::before {
+  content: ''; 
+  width: calc(100% + 10px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.2; 
+  position: absolute; 
+  top: 0; 
+  z-index: -1;
+  left: -5px;
+}
+.cozy-VmLDNB .headerText-2z4IhQ > .username-h_Y3Us {
+  margin-left: 5px;
+}
+
+.messageListItem__6a4fb {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.messageListItem__6a4fb:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3e2f5091; /*Change this to change the color*/
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  border-radius: 20px;
+  opacity: 30%;
+}
+.messageListItem__6a4fb:hover,
+.messageListItem__6a4fb:focus,
+.messageListItem__6a4fb:active {
+  color: white;
+}
+.messageListItem__6a4fb:hover:before,
+.messageListItem__6a4fb:focus:before,
+.messageListItem__6a4fb:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.cozy_f5c119 .headerText_f47574 > .username_d30d99::before {
+  content: ''; 
+  width: calc(100% + 10px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.2; 
+  position: absolute; 
+  top: 0; 
+  z-index: -1;
+  left: -5px;
+}
+.cozy_f5c119 .headerText_f47574 > .username_d30d99 {
+  margin-left: 5px;
+}
+
+.typing__6fd1d .text_ca54e9 { display: flex; align-items: center;}
+
+.typing__6fd1d .text_ca54e9 strong { 
+    margin: 0 3px;
+    line-height: 21px;
+    animation: slideUp 300ms;
+}
+@keyframes slideUp {
+    0% { margin-top: -50px;}
+    100% { margin-top: 0;}
+}
+
+:root {
+    /* anything selected in menu */
+    --background-modifier-selected: var(--background-mentioned);
+  
+    /* This isn't shown in my screenshot but I think it looks cool */
+    /* --interactive-active: #6FD6A2; */
+    
+    /* channel colors */
+    --hovering-over-channel: var(--background-mentioned);
+    --channel-icon: #a3425d;
+    --channel-text-area-placeholder: #6d728ab9;
+  
+    /* 1. when mentioning a channel bg color */
+    --mention-background: var(--background-mentioned);
+  
+    /* 1. when pinged, foreground color */
+    --mention-foreground: var(--main-color);
+  
+    /* 1. when pinged, background color  */
+    --background-mentioned: #a3425d17;
+    --background-mentioned-hover: #a3425d21;
+  
+    /* 2. color of message you're replying to */
+    --background-message-highlight: var(--background-secondary-alt);
+  
+    /* 2. when hovering over a message you're replying to */
+    --brand-experiment-10a: #a3425d21;
+  
+    /* outline of reactions */
+    --brand-experiment: #a3425d49; 
+    --brand-experiment-15a: var(--background-mentioned-hover);
+  
+    /* makes muted text color a little more blue */
+    --interactive-muted: #565c7bb9;  
+}
+
+/* 1. changing the border color of in-chat mention + reply */
+:root .mentioned-Tre-dv::before { background-color: var(--main-color); }
+:root .message-2CShn3::before { background-color: var(--main-color); }
+
+/* 1. when hovering over channel mentions */
+:root .channelMention:hover, .mention:hover { 
+  text-decoration: none !important;
+  color: var(--main-color);
+  background-color: var(--background-mentioned-hover); 
+}
+
+/* 5. make bg of quick reacts transparent */
+:root .customItem-1KYL7t .button-1zW0-r {
+  background-color: transparent; 
+}
+
+/* 6. change color of NEW bar to main color */
+:root .divider-2rZFJK .unreadPill-3nEWYM {
+  position: relative;
+  color: var(--main-color);
+  top: 0; 
+}
+
+/* 6. change color of new message date to main color */
+:root .isUnread-3Lojb- .content-3spvdd {
+  color: var(--main-color) !important; 
+}
+
+/*  From HereToHelp  */
+/* recolor the "Send Message" button*/
+.activeButtonChild-2hgLAO {
+  color: var(--main-color);
+}
+:root .button-y6hemj:focus-within .activeButtonChild-2hgLAO, 
+:root .button-y6hemj:focus .activeButtonChild-2hgLAO, 
+:root .button-y6hemj:hover .activeButtonChild-2hgLAO {
+  color: var(--main-color);
+}
+
+/* add hover colors to everything*/
+:root .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+  background: var(--background-mentioned) !important;
+  background-color: var(--background-mentioned) !important;
+}
+
+.message-2CShn3.cozyMessage-1DWF9U.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz.hasThread-3h-KJV:not(.isSystemMessage-QNv9ZH) > 
+.contents-2MsGLg > .messageContent-2t3eCI {
+  padding-left: 100px;
+}
+
+:root{
+  --spotify-vencord-wave-width: 240px;--spotify-vencord-color: #9b465e;
+  --spotify-vencord-text: 220deg 16.3636363636% 21.568627451%}@keyframes spotifywave{
+    0%{-webkit-mask-position-x:var(--spotify-vencord-wave-width)}
+    100%{-webkit-mask-position-x:0}}#vc-spotify-player::before{
+  content:"";
+  position:absolute;
+  height:18px;
+  z-index:1;
+  width:var(--spotify-vencord-wave-width);
+  margin-top:-17px;
+  left:0;
+  background:var(--spotify-vencord-color);
+  -webkit-mask-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="240" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+  animation:spotifywave 8s linear infinite;
+  animation-delay:0s;
+  opacity:1
+  }
+  #vc-spotify-player:has(.vc-spotify-play)::before{
+  animation-play-state:paused}
+  #vc-spotify-player#vc-spotify-player{
+    background:var(--spotify-vencord-color);border-bottom:none}
+  #vc-spotify-player #vc-spotify-song-title#vc-spotify-song-title,
+  #vc-spotify-player .vc-spotify-ellipoverflow.vc-spotify-ellipoverflow,
+  #vc-spotify-player .vc-spotify-artist.vc-spotify-artist,
+  #vc-spotify-player .vc-spotify-album.vc-spotify-album,
+  #vc-spotify-player .vc-spotify-time-right{
+    color:hsla(var(--spotify-vencord-text)/1)}
+  #vc-spotify-player#vc-spotify-player [class^=bar]{
+    background:hsla(var(--spotify-vencord-text)/0.2)}
+  #vc-spotify-player#vc-spotify-player [class^=barFill]{
+    background:hsla(var(--spotify-vencord-text)/0.4)}
+  #vc-spotify-player #vc-spotify-progress-bar>[class^=slider] [class^=grabber][class^=grabber]{
+    background-color:var(--spotify-vencord-color);
+    border-color:hsla(var(--spotify-vencord-text)/1);
+    color:var(--interactive-normal);
+    border-width:2px;
+    height:8px !important;
+    width:8px !important}
+  #vc-spotify-player .vc-spotify-shuffle-on.vc-spotify-shuffle-on,
+  #vc-spotify-player .vc-spotify-repeat-context.vc-spotify-repeat-context,
+  #vc-spotify-player .vc-spotify-repeat-track.vc-spotify-repeat-track,
+  #vc-spotify-player .vc-spotify-shuffle-on.vc-spotify-shuffle-on:hover,
+  #vc-spotify-player .vc-spotify-repeat-context.vc-spotify-repeat-context:hover,
+  #vc-spotify-player .vc-spotify-repeat-track.vc-spotify-repeat-track:hover{
+    color:hsla(var(--spotify-vencord-text)/1)}
+  #vc-spotify-player .vc-spotify-repeat-off.vc-spotify-repeat-off.vc-spotify-repeat-off,
+  #vc-spotify-player .vc-spotify-shuffle-off.vc-spotify-shuffle-off.vc-spotify-shuffle-off{
+    color:hsla(var(--spotify-vencord-text)/0.5)}
+  #vc-spotify-player .vc-spotify-button.vc-spotify-button{
+    transition:background .1s;color:hsla(var(--spotify-vencord-text)/1)}
+  .vc-spotify-comma.vc-spotify-comma{color:hsla(var(--spotify-vencord-text)/1)}
+  #vc-spotify-titles{margin-left:12px}
+  #vc-spotify-song-title::before,
+  #vc-spotify-song-title+div::before,
+  #vc-spotify-song-title+div+div::before{
+    -webkit-mask-repeat:no-repeat;
+    -webkit-mask-size:contain;
+    padding:7px;
+    margin-left:-17px;
+    margin-top:2px;content:"";
+    background-color:currentColor;position:absolute}
+  #vc-spotify-song-title::before{
+    -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-music-4'%3E%3Cpath d='M9 18V5l12-2v13'%3E%3C/path%3E%3Cpath d='m9 9 12-2'%3E%3C/path%3E%3Ccircle cx='6' cy='18' r='3'%3E%3C/circle%3E%3Ccircle cx='18' cy='16' r='3'%3E%3C/circle%3E%3C/svg%3E")}
+  #vc-spotify-song-title+div::before{
+    -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-mic'%3E%3Cpath d='M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z'%3E%3C/path%3E%3Cpath d='M19 10v2a7 7 0 0 1-14 0v-2'%3E%3C/path%3E%3Cline x1='12' x2='12' y1='19' y2='22'%3E%3C/line%3E%3C/svg%3E")}
+  #vc-spotify-song-title+div+div::before{
+    -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-disc-2'%3E%3Ccircle cx='12' cy='12' r='4'%3E%3C/circle%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='12' x2='12' y2='12.01'%3E%3C/line%3E%3C/svg%3E")}
+  .activityUserPopoutV2-3eKqzY:has([class^=timeBarUserPopoutV2-]) 
+  .contentImagesUserPopoutV2-2Mcg9w>div:nth-child(2)::before
+  .activityUserPopoutV2-3eKqzY:has([class^=timeBarUserPopoutV2-]) 
+  .contentImagesUserPopoutV2-2Mcg9w>div:nth-child(3)::before{
+    -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-disc-2'%3E%3Ccircle cx='12' cy='12' r='4'%3E%3C/circle%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='12' x2='12' y2='12.01'%3E%3C/line%3E%3C/svg%3E")}[class^=progressBarContainer]
+    {background:url("data:image/gif;base64,R0lGODlhMAAMAIAAAAxBd////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQECgAAACwAAAAAMAAMAAACJYSPqcvtD6MKstpLr24Z9A2GYvJ544mhXQmxoesElIyCcB3dRgEAIfkEBAoAAAAsAQACAC0ACgAAAiGEj6nLHG0enNQdWbPefOHYhSLydVhJoSYXPO04qrAmJwUAIfkEBAoAAAAsBQABACkACwAAAiGEj6nLwQ8jcC5ViW3evHt1GaE0flxpphn6BNTEqvI8dQUAIfkEBAoAAAAsAQABACoACwAAAiGEj6nLwQ+jcU5VidPNvPtvad0GfmSJeicUUECbxnK0RgUAIfkEBAoAAAAsAAAAACcADAAAAiCEj6mbwQ+ji5QGd6t+c/v2hZzYiVpXmuoKIikLm6hXAAAh+QQECgAAACwAAAAALQAMAAACI4SPqQvBD6NysloTXL480g4uX0iW1Wg21oem7ismLUy/LFwAACH5BAQKAAAALAkAAAAkAAwAAAIghI8Joe0Po0yBWTaz3g/z7UXhMX7kYmplmo0rC8cyUgAAIfkEBAoAAAAsBQAAACUACgAAAh2Ejwmh7Q+jbIFZNrPeEXPudU74IVa5kSiYqOtRAAAh+QQECgAAACwEAAAAIgAKAAACHISPELfpD6OcqTGKs4bWRp+B36YFi0mGaVmtWQEAIfkEBAoAAAAsAAAAACMACgAAAh2EjxC36Q+jnK8xirOW1kavgd+2BYtJhmnpiGtUAAAh+QQECgAAACwAAAAALgALAAACIYSPqcvtD+MKicqLn82c7e6BIhZQ5jem6oVKbfdqQLzKBQAh+QQECgAAACwCAAIALAAJAAACHQx+hsvtD2OStDplKc68r2CEm0eW5uSN6aqe1lgAADs=")}
+  .theme-dark div[class^=sidebar-] div[class^=container][class^=container][class^=container] 
+  div[class^=progressBar-]
+    {background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMCAIAAAAs6UAAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUNCQzIyREQ0QjdEMTFFMzlEMDM4Qzc3MEY0NzdGMDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUNCQzIyREU0QjdEMTFFMzlEMDM4Qzc3MEY0NzdGMDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQ0JDMjJEQjRCN0QxMUUzOUQwMzhDNzcwRjQ3N0YwOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQ0JDMjJEQzRCN0QxMUUzOUQwMzhDNzcwRjQ3N0YwOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PovDFgYAAAAmSURBVHjaYvjPwMAAxjMZmBhA9H8INv4P4TPM/A+m04zBNECAAQBCWQv9SUQpVgAAAABJRU5ErkJggg==");
+    background-size:contain}[class^=progressBarContainer] [class^=progressBar]:after{content:"";
+    background:url("data:image/gif;base64,R0lGODlhIgAVAKIHAL3/9/+Zmf8zmf/MmZmZmf+Z/wAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDMkJBNjY5RTU1NEJFMzExOUM4QUM2MDAwNDQzRERBQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCREIzOEIzMzRCN0IxMUUzODhEQjgwOTYzMTgyNTE0QiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCREIzOEIzMjRCN0IxMUUzODhEQjgwOTYzMTgyNTE0QiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM1QkE2NjlFNTU0QkUzMTE5QzhBQzYwMDA0NDNEREFDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkMyQkE2NjlFNTU0QkUzMTE5QzhBQzYwMDA0NDNEREFDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8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");
+    background-size:contain;
+    width:25px !important;
+    height:15px !important;
+    position:absolute;
+    right:-12px;
+    top:-6px}
