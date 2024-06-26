@@ -254,24 +254,3 @@
   color: var(--main-color) !important; 
 }
 
-/*  From HereToHelp  */
-/* recolor the "Send Message" button*/
-.activeButtonChild-2hgLAO {
-  color: var(--main-color);
-}
-:root .button-y6hemj:focus-within .activeButtonChild-2hgLAO, 
-:root .button-y6hemj:focus .activeButtonChild-2hgLAO, 
-:root .button-y6hemj:hover .activeButtonChild-2hgLAO {
-  color: var(--main-color);
-}
-
-/* add hover colors to everything*/
-:root .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
-  background: var(--background-mentioned) !important;
-  background-color: var(--background-mentioned) !important;
-}
-
-.message-2CShn3.cozyMessage-1DWF9U.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz.hasThread-3h-KJV:not(.isSystemMessage-QNv9ZH) > 
-.contents-2MsGLg > .messageContent-2t3eCI {
-  padding-left: 100px;
-}
