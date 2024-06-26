@@ -3,52 +3,6 @@
   transition: opacity 150ms;
 }
 
-:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 {
-  position: fixed;
-  bottom: 26.5px;
-  left: 327.5px;
-  z-index: 2;
-  margin: 0;
-  padding: 0;
-  min-width: unset;
-}
-:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13 {
-  width: 40px !important;
-  height: 40px !important;
-}
-:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13 > svg {
-  contain: unset;
-}
-:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13 foreignObject {
-  width: 100% !important;
-  height: 100% !important;
-}
-:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13 .pointerEvents_c51b4e {
-  x: 31px;
-  y: 31px;
-  ry: var(--status-radius);
-  width: 12px;
-  height: 12px;
-}
-:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13:hover {
-  opacity: 1;
-}
-:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13 + .nameTag_b2ca13 {
-  display: none;
-}
-:root .content_a4d4d9 > :nth-child(2):not(.chat_a7d72e),
-:root .callContainer_ed4410,
-:root .gatedContent_b9693a,
-:root .chat_a7d72e > .content_a7d72e > .container_a6d69a > .list_a6d69a[data-list-id^=forum-channel-list],
-:root .chat_a7d72e > .content_a7d72e > .pageContainer_a9a262,
-:root .forumOrHome_ff5f90 + .content_a7d72e > .container__93316,
-:root .container_f1fd9c,
-:root .background_e85cee,
-:root .page_d20375 {
-  z-index: 2;
-}
-
-
 :root .root_f9a4c9,
 :root .footer_f9a4c9,
 :root .modal_ec75c1 {
