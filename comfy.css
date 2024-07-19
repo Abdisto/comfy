@@ -1,6 +1,7 @@
 /**
 * @name Comfy
 * @author Nyria#3863
+* @maintained by Abdist
 * @description Stay comfy while talking to your friends
 * @invite rtBQX5D3bD
 * @version 2.4
@@ -249,8 +250,17 @@
   color: var(--main-color) !important; 
 }
 
-:root .slider_c7a159 .grabber_c7a159 {
-  top: 10px;
-  background-color: transparent;
-  box-shadow: none;
+
+.container_df5532 {
+  position: relative;
+  left: -75px;
+  top: -25px;
+}
+
+.contentColumn_c25c6d.contentColumnDefault_c25c6d .grabber_c7a159 {
+  border: none;
+}
+
+.footerSeparator_f9a4c9 {
+    background-color: #1f2436;
 }
