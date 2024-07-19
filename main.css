@@ -197,11 +197,6 @@
 :root .themedPopout-1TrfdI > .slider_c7a159 .bar_c7a159 {
   top: 0 !important;
 }
-:root .slider_c7a159 .grabber_c7a159 {
-  top: 150px !important;
-  background-color: transparent;
-  box-shadow: none;
-}
 :root .barFill_c7a159 {
   border-radius: 0 3px 3px 0;
 }
