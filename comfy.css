@@ -248,3 +248,9 @@
 :root .isUnread-3Lojb- .content-3spvdd {
   color: var(--main-color) !important; 
 }
+
+:root .slider_c7a159 .grabber_c7a159 {
+  top: 10px;
+  background-color: transparent;
+  box-shadow: none;
+}
