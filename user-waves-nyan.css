@@ -75,14 +75,16 @@
 }
 
 #vc-spotify-player [class^=bar] {
-  background: hsla(var(--spotify-vencord-text) / 0.2);
+    background: hsla(var(--spotify-vencord-text) / 0.2);
 }
 
+#vc-spotify-player 
 #vc-spotify-player [class^=barFill] {
   background: hsla(var(--spotify-vencord-text) / 0.4);
 }
 
-#vc-spotify-player #vc-spotify-progress-bar > [class^=slider] [class^=grabber] {
+#vc-spotify-player 
+#vc-spotify-progress-bar > [class^=slider] [class^=grabber][class^=grabber] {
   background-color: var(--spotify-vencord-color);
   border-color: hsla(var(--spotify-vencord-text) / 1);
   color: var(--interactive-normal);
