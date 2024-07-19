@@ -85,12 +85,10 @@
 
 #vc-spotify-player 
 #vc-spotify-progress-bar > [class^=slider] [class^=grabber][class^=grabber] {
-  position: relative;
   background-color: var(--spotify-vencord-color);
   border-color: hsla(var(--spotify-vencord-text) / 1);
   color: var(--interactive-normal);
   border-width: 2px;
-  top: 40%;
   height: 8px !important;
   width: 8px !important;
 }
