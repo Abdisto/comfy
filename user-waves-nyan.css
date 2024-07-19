@@ -1,14 +1,8 @@
 :root {
   --spotify-vencord-wave-width: 240px;--spotify-vencord-color: #9b465e;
   --spotify-vencord-text: 220deg 16.3636363636% 21.568627451%
-} @keyframes spotifywave2{
-  0% {
-    -webkit-mask-position-x:var(--spotify-vencord-wave-width)
-  }
-  100% {
-    -webkit-mask-position-x:0
-  }
-} #vc-spotify-player::before {
+}
+#vc-spotify-player::before {
   content:"";
   position:absolute;
   height:18px;
