@@ -91,6 +91,28 @@
   width: 8px !important;
 }
 
+#vc-spotify-player .vc-spotify-shuffle-on.vc-spotify-shuffle-on,
+#vc-spotify-player .vc-spotify-repeat-context.vc-spotify-repeat-context,
+#vc-spotify-player .vc-spotify-repeat-track.vc-spotify-repeat-track,
+#vc-spotify-player .vc-spotify-shuffle-on.vc-spotify-shuffle-on:hover,
+#vc-spotify-player .vc-spotify-repeat-context.vc-spotify-repeat-context:hover,
+#vc-spotify-player .vc-spotify-repeat-track.vc-spotify-repeat-track:hover {
+    color:hsla(var(--spotify-vencord-text)/1)
+} 
+
+#vc-spotify-player .vc-spotify-repeat-off.vc-spotify-repeat-off.vc-spotify-repeat-off,
+#vc-spotify-player .vc-spotify-shuffle-off.vc-spotify-shuffle-off.vc-spotify-shuffle-off {
+    color:hsla(var(--spotify-vencord-text)/0.5)
+} 
+
+#vc-spotify-player .vc-spotify-button.vc-spotify-button {
+    transition:background .1s;color:hsla(var(--spotify-vencord-text)/1)
+} 
+
+.vc-spotify-comma.vc-spotify-comma{
+    color:hsla(var(--spotify-vencord-text)/1)
+}
+
 #vc-spotify-titles {
   margin-left: 12px;
 }
@@ -120,28 +142,6 @@
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-disc-2'%3E%3Ccircle cx='12' cy='12' r='4'%3E%3C/circle%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='12' x2='12' y2='12.01'%3E%3C/line%3E%3C/svg%3E");
 }
 
-#vc-spotify-player .vc-spotify-shuffle-on.vc-spotify-shuffle-on,
-#vc-spotify-player .vc-spotify-repeat-context.vc-spotify-repeat-context,
-#vc-spotify-player .vc-spotify-repeat-track.vc-spotify-repeat-track,
-#vc-spotify-player .vc-spotify-shuffle-on.vc-spotify-shuffle-on:hover,
-#vc-spotify-player .vc-spotify-repeat-context.vc-spotify-repeat-context:hover,
-#vc-spotify-player .vc-spotify-repeat-track.vc-spotify-repeat-track:hover {
-    color:hsla(var(--spotify-vencord-text)/1)
-} 
-
-#vc-spotify-player .vc-spotify-repeat-off.vc-spotify-repeat-off.vc-spotify-repeat-off,
-#vc-spotify-player .vc-spotify-shuffle-off.vc-spotify-shuffle-off.vc-spotify-shuffle-off {
-    color:hsla(var(--spotify-vencord-text)/0.5)
-} 
-
-#vc-spotify-player .vc-spotify-button.vc-spotify-button {
-    transition:background .1s;color:hsla(var(--spotify-vencord-text)/1)
-} 
-
-.vc-spotify-comma.vc-spotify-comma{
-    color:hsla(var(--spotify-vencord-text)/1)
-}
-
 
 
 
@@ -163,6 +163,5 @@
   right:-12px;
   top:-6px;
 }
-
 
 
