@@ -90,7 +90,7 @@
   border-color: hsla(var(--spotify-vencord-text) / 1);
   color: var(--interactive-normal);
   border-width: 2px;
-  top: 20px;
+  top: 40%;
   height: 8px !important;
   width: 8px !important;
 }
