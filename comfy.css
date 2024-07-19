@@ -188,10 +188,7 @@
     100% { margin-top: 0;}
 }
 
-:root {
-    /* anything selected in menu */
-    --background-modifier-selected: var(--background-mentioned);
-  
+:root {  
     /* This isn't shown in my screenshot but I think it looks cool */
     /* --interactive-active: #6FD6A2; */
     
@@ -209,7 +206,7 @@
     /* 1. when pinged, background color  */
     --background-mentioned: #a3425d17;
     --background-mentioned-hover: #a3425d21;
-  
+    
     /* 2. color of message you're replying to */
     --background-message-highlight: var(--background-secondary-alt);
   
@@ -238,6 +235,13 @@
 /* 5. make bg of quick reacts transparent */
 :root .customItem-1KYL7t .button-1zW0-r {
   background-color: transparent; 
+}
+
+/* 6. change color of NEW bar to main color */
+:root .divider-2rZFJK .unreadPill-3nEWYM {
+  position: relative;
+  color: var(--main-color);
+  top: 0; 
 }
 
 /* 6. change color of new message date to main color */
