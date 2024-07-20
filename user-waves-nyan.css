@@ -88,6 +88,7 @@
   background-color: var(--spotify-vencord-color);
   border-color: hsla(var(--spotify-vencord-text) / 1);
   color: var(--interactive-normal);
+  top: 10px;
   border-width: 2px;
   height: 8px !important;
   width: 8px !important;
