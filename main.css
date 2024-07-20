@@ -645,7 +645,10 @@
   background: var(--background-secondary-alt) !important;
   border-color: var(--background-tertiary);
 }
-
+:root .bannerSVGWrapper_b32cc2{
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
 :root .bannerSVGWrapper_b32cc2 mask {
   display: none;
 }
