@@ -383,6 +383,10 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 {
   background-color: var(--background-primary);
 }
 
+.divider_af45f8 {
+    background-color: var(--background-secondary);
+}
+
 .theme-dark .textContentFooter_a57509.noTags_a57509 {
   background: none;
   /*background: linear-gradient(to top,hsl(var(--primary-600-hsl)/1),hsl(var(--primary-600-hsl)/0));*/
@@ -416,4 +420,8 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 {
 
 .barFill_c7a159 {
   background-color: var(--playing);
+}
+
+.container_c1519f {
+    background-color: var(--background-tertiary);
 }
