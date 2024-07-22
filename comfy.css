@@ -384,6 +384,9 @@
 .lookFilled_dd4f85.colorPrimary_dd4f85 {
   background-color: var(--background-brighter);
 }
+.lookFilled_dd4f85.colorPrimary_dd4f85:hover {
+    background-color: var(--background-primary);
+}
 
 .contentColumn_c25c6d.contentColumnDefault_c25c6d .grabber_c7a159 { /*Options Volume Grabber position FIX*/
   position: absolute;
