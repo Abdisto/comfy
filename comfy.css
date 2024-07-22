@@ -333,25 +333,6 @@
   background-color: var(--background-brighter);
 }
 
-.overlay_f94206:after{
-  border-radius: var(--avatar-radius);  
-}
-
-.body_b07019 {
-  padding: 0 12px 12px;
-}
-.activity_cd74cc {
-    background-color: var(--background-secondary-alt);
-}
-.container_c1519f,
-.biteSizeOverlayBackground_c69a7b, .fullSizeOverlayBackground_c69a7b{
-    background-color: var(--background-tertiary);
-}
-
-div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 {
-  padding-right: 12px !important;
-}
-
 .closeButton_df5532 {
   position: relative;
   border-radius: 5px;
@@ -404,31 +385,50 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 {
   background-color: var(--background-brighter);
 }
 
-:root .bannerSVGWrapper_b32cc2 {
-  mask-image: linear-gradient(black 10%, transparent 100%);
-}
-
-
-.contentColumn_c25c6d.contentColumnDefault_c25c6d .grabber_c7a159 {
+.contentColumn_c25c6d.contentColumnDefault_c25c6d .grabber_c7a159 { /*Options Volume Grabber position FIX*/
   position: absolute;
   top: 21px;
   background-color: var(--background-brighter);
   border-color: var(--background-primary);
 }
 
-#user-context-user-volume > div.sliderContainer_e13f88 > div > div:nth-child(3) > div {
+#user-context-user-volume > div.sliderContainer_e13f88 > div > div:nth-child(3) > div { /*Direct Path to User Volume Grabber position FIX + ²*/
   position: absolute;
   top: 10px;
   border-radius: 4px;
 }
 
-.barFill_c7a159 {
+.barFill_c7a159 { /*Drag Bars Color*/
   background-color: var(--playing);
 }
 
-.lookFilled_dd4f85.colorBrand_dd4f85 {
+.lookFilled_dd4f85.colorBrand_dd4f85 { /*Buttons Color*/
     background-color: var(--playing);
 }
-.lookFilled_dd4f85.colorBrand_dd4f85:hover {
+.lookFilled_dd4f85.colorBrand_dd4f85:hover { /*Buttons Color Hover*/
     background-color: var(--spotify-vencord-color2);
+}
+
+/*User Popout*/
+/*           */
+
+:root .bannerSVGWrapper_b32cc2 { /*Banner Gradient*/
+  mask-image: linear-gradient(black 10%, transparent 100%);
+}
+
+.body_b07019 { /*Spotify not centered FIX*/
+  padding: 0 12px 12px;
+}
+div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 {
+  padding-right: 12px !important;
+}
+.activity_cd74cc {
+    background-color: var(--background-secondary-alt); /*Spotify*/
+}
+.container_c1519f,
+.biteSizeOverlayBackground_c69a7b, .fullSizeOverlayBackground_c69a7b { /*Connections*/
+    background-color: var(--background-tertiary);
+}
+.overlay_f94206:after { /*Profile Avatar Hover FIX*/
+  border-radius: var(--avatar-radius);  
 }
