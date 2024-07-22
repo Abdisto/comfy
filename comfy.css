@@ -343,6 +343,10 @@
 .activity_cd74cc {
     background-color: var(--background-secondary-alt);
 }
+.container_c1519f,
+.biteSizeOverlayBackground_c69a7b, .fullSizeOverlayBackground_c69a7b{
+    background-color: var(--background-tertiary);
+}
 
 div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 {
   padding-right: 12px !important;
@@ -422,6 +426,9 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 {
   background-color: var(--playing);
 }
 
-.container_c1519f {
-    background-color: var(--background-tertiary);
+.lookFilled_dd4f85.colorBrand_dd4f85 {
+    background-color: var(--playing);
+}
+.lookFilled_dd4f85.colorBrand_dd4f85:hover {
+    background-color: var(--spotify-vencord-color2);
 }
