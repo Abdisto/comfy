@@ -391,17 +391,14 @@
   background-color: var(--background-brighter);
   border-color: var(--background-primary);
 }
-
 #user-context-user-volume > div.sliderContainer_e13f88 > div > div:nth-child(3) > div { /*Direct Path to User Volume Grabber position FIX + ²*/
   position: absolute;
   top: 10px;
   border-radius: 4px;
 }
-
 .barFill_c7a159 { /*Drag Bars Color*/
   background-color: var(--playing);
 }
-
 .lookFilled_dd4f85.colorBrand_dd4f85 { /*Buttons Color*/
     background-color: var(--playing);
 }
@@ -410,16 +407,14 @@
 }
 
 /*User Popout*/
-/*           */
 
 :root .bannerSVGWrapper_b32cc2 { /*Banner Gradient*/
   mask-image: linear-gradient(black 10%, transparent 100%);
 }
-
-.body_b07019 { /*Spotify not centered FIX*/
+.body_b07019 { /*Spotify Padding FIX*/
   padding: 0 12px 12px;
 }
-div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 {
+div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding FIX*/
   padding-right: 12px !important;
 }
 .activity_cd74cc {
@@ -431,4 +426,7 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 {
 }
 .overlay_f94206:after { /*Profile Avatar Hover FIX*/
   border-radius: var(--avatar-radius);  
+}
+.footer_b07019 { /*Edit Profile Padding FIX*/
+    padding: 0 12px 12px;
 }
