@@ -267,7 +267,7 @@
   display: none;
 }
 
-.mask_c51b4e circle {
+.mask_c51b4e circle:not(dots_ce0450){
   display: none;
 }
 .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]){
