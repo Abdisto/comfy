@@ -181,46 +181,46 @@
 .typing__6fd1d .text_ca54e9 { display: flex; align-items: center;}
 
 .typing__6fd1d .text_ca54e9 strong { 
-    margin: 0 3px;
-    line-height: 21px;
-    animation: slideUp 300ms;
+  margin: 0 3px;
+  line-height: 21px;
+  animation: slideUp 300ms;
 }
 @keyframes slideUp {
-    0% { margin-top: -50px;}
-    100% { margin-top: 0;}
+  0% { margin-top: -50px;}
+  100% { margin-top: 0;}
 }
 
 :root {  
-    /* This isn't shown in my screenshot but I think it looks cool */
-    /* --interactive-active: #6FD6A2; */
-    
-    /* channel colors */
-    --hovering-over-channel: var(--background-mentioned);
-    --channel-icon: #a3425d;
-    --channel-text-area-placeholder: #6d728ab9;
+  /* This isn't shown in my screenshot but I think it looks cool */
+  /* --interactive-active: #6FD6A2; */
   
-    /* 1. when mentioning a channel bg color */
-    --mention-background: var(--background-mentioned);
+  /* channel colors */
+  --hovering-over-channel: var(--background-mentioned);
+  --channel-icon: #a3425d;
+  --channel-text-area-placeholder: #6d728ab9;
+
+  /* 1. when mentioning a channel bg color */
+  --mention-background: var(--background-mentioned);
+
+  /* 1. when pinged, foreground color */
+  --mention-foreground: var(--main-color);
+
+  /* 1. when pinged, background color  */
+  --background-mentioned: #a3425d17;
+  --background-mentioned-hover: #a3425d21;
   
-    /* 1. when pinged, foreground color */
-    --mention-foreground: var(--main-color);
-  
-    /* 1. when pinged, background color  */
-    --background-mentioned: #a3425d17;
-    --background-mentioned-hover: #a3425d21;
-    
-    /* 2. color of message you're replying to */
-    --background-message-highlight: var(--background-secondary-alt);
-  
-    /* 2. when hovering over a message you're replying to */
-    --brand-experiment-10a: #a3425d21;
-  
-    /* outline of reactions */
-    --brand-experiment: #a3425d49; 
-    --brand-experiment-15a: var(--background-mentioned-hover);
-  
-    /* makes muted text color a little more blue */
-    --interactive-muted: #565c7bb9;  
+  /* 2. color of message you're replying to */
+  --background-message-highlight: var(--background-secondary-alt);
+
+  /* 2. when hovering over a message you're replying to */
+  --brand-experiment-10a: #a3425d21;
+
+  /* outline of reactions */
+  --brand-experiment: #a3425d49; 
+  --brand-experiment-15a: var(--background-mentioned-hover);
+
+  /* makes muted text color a little more blue */
+  --interactive-muted: #565c7bb9;  
 }
 
 /* 1. changing the border color of in-chat mention + reply */
@@ -259,17 +259,22 @@
 }
 
 .footerSeparator_f9a4c9 {
-    background-color: var(--background-brighter);
+  background-color: var(--background-brighter);
 }
 
-
-.mask_c51b4e svg_c51b4e {
+.mask_c51b4e circle {
   display: none;
 }
 
-.mask_c51b4e circle:not(dots_ce0450){
-  display: none;
+/* Show circles inside SVGs with a specific width attribute */
+.mask_c51b4e [width="17.5"] circle {
+  display: block; /* or another appropriate display value */
 }
+
+
+/*<svg x="3.75" y="7.5" width="17.5" height="5" class="dots_ce0450"><g style="opacity: 1;"><circle cx="2.5" cy="2.5" r="2.5" fill="currentColor" style="opacity: 1;"></circle><circle cx="8.75" cy="2.5" r="2.5" fill="currentColor" style="opacity: 1;"></circle><circle cx="15" cy="2.5" r="2.5" fill="currentColor" style="opacity: 1;"></circle></g></svg>
+*/
+
 .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]){
   rx:5px;
   filter:
@@ -369,7 +374,7 @@
 }
 
 .divider_af45f8 {
-    background-color: var(--background-secondary);
+  background-color: var(--background-secondary);
 }
 
 .theme-dark .textContentFooter_a57509.noTags_a57509 {
@@ -385,7 +390,7 @@
   background-color: var(--background-brighter);
 }
 .lookFilled_dd4f85.colorPrimary_dd4f85:hover {
-    background-color: var(--background-primary);
+  background-color: var(--background-primary);
 }
 
 .contentColumn_c25c6d.contentColumnDefault_c25c6d .grabber_c7a159 { /*Options Volume Grabber position FIX*/
@@ -403,10 +408,10 @@
   background-color: var(--playing);
 }
 .lookFilled_dd4f85.colorBrand_dd4f85 { /*Buttons Color*/
-    background-color: var(--playing);
+  background-color: var(--playing);
 }
 .lookFilled_dd4f85.colorBrand_dd4f85:hover { /*Buttons Color Hover*/
-    background-color: var(--spotify-vencord-color2);
+  background-color: var(--spotify-vencord-color2);
 }
 
 /*User Popout*/
@@ -421,15 +426,15 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   padding-right: 12px !important;
 }
 .activity_cd74cc {
-    background-color: var(--background-secondary-alt); /*Spotify*/
+  background-color: var(--background-secondary-alt); /*Spotify*/
 }
 .container_c1519f,
 .biteSizeOverlayBackground_c69a7b, .fullSizeOverlayBackground_c69a7b { /*Connections*/
-    background-color: var(--background-tertiary);
+  background-color: var(--background-tertiary);
 }
 .overlay_f94206:after { /*Profile Avatar Hover FIX*/
   border-radius: var(--avatar-radius);  
 }
 .footer_b07019 { /*Edit Profile Padding FIX*/
-    padding: 0 12px 12px;
+  padding: 0 12px 12px;
 }
