@@ -49,6 +49,9 @@
   --background-tertiary: #101320;
   --background-accent: #9f72da;
   --background-brighter: #2d3550;
+
+  --accent-color: #a3425d;
+  --accent-color-alpha: rgba(171, 85, 108, 0.4);
   
   --modal-background: #23283d;
   --background-mobile-primary: #23283d;
@@ -306,7 +309,7 @@
 }
 
 .clickableUsername_c32acf, .nickname_c32acf.fullSize_c32acf{
-  background: linear-gradient(90deg, var(--playing), rgb(140, 52, 255));
+  background: linear-gradient(90deg, var(--accent-color), rgb(140, 52, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -354,11 +357,11 @@
 }
 
 .votePercentageBar_cf2c85 {
-  background-color: var(--playing);
+  background-color: var(--accent-color);
 }
 
 .victorStyles_b5cb3c {
-  --custom-poll-style-border: var(--playing);
+  --custom-poll-style-border: var(--accent-color);
 }
 
 .flowerStar_c91f7d {
@@ -405,10 +408,10 @@
   border-radius: 4px;
 }
 .barFill_c7a159 { /*Drag Bars Color*/
-  background-color: var(--playing);
+  background-color: var(--accent-color);
 }
 .lookFilled_dd4f85.colorBrand_dd4f85 { /*Buttons Color*/
-  background-color: var(--playing);
+  background-color: var(--accent-color);
 }
 .lookFilled_dd4f85.colorBrand_dd4f85:hover { /*Buttons Color Hover*/
   background-color: var(--spotify-vencord-color2);
@@ -437,4 +440,46 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 .footer_b07019 { /*Edit Profile Padding FIX*/
   padding: 0 12px 12px;
+}
+
+.theme-dark {
+  --accent-color-alpha: rgba(171, 85, 108, 0.4);
+}
+
+.px_a9e77f {
+  background-color: var(--accent-color);
+}
+
+[class*=messageContent] :is(h1, h2, h3) {
+  color: var(--accent-color);
+}
+[class*=messageContent] strong {
+  color: var(--accent-color);
+}
+
+.reaction_ec6b19.reactionMe_ec6b19 {
+  border-color: var(--accent-color);
+  background-color: var(--accent-color-alpha);
+}
+
+.reaction_ec6b19.reactionMe_ec6b19:hover {
+  filter: brightness(1.15);
+}
+
+.wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+  background-color: var(--accent-color);
+}
+
+.button_adcaac .buttonColor_adcaac.buttonActive_adcaac, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac {
+  background-color: var(--accent-color);
+  filter: brightness(0.7);
+}
+
+.button_adcaac .buttonColor_adcaac.buttonActive_adcaac, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover {
+  background-color: var(--accent-color);
+  filter: brightness(1.5);
+}
+
+.clickableUsername_c32acf:hover, .nickname_c32acf.fullSize_c32acf:hover{
+  filter: brightness(1.4);
 }
