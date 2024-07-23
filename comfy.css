@@ -480,6 +480,6 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 
 
-.usernameRow_c32acf:hover, .clickableUsername_c32acf:hover {
+.clickableUsername_c32acf:hover, .nickname_c32acf.fullSize_c32acf:hover, .userTagUsername_c32acf:hover{
   filter: brightness(1.4);
 }
