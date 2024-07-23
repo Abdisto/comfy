@@ -1,7 +1,3 @@
-.theme-dark{
-  --playing: #a3425d;
-}
-
 :root {
   --spotify-vencord-wave-width: 240px;
   --spotify-vencord-color: var(--playing);
