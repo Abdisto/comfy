@@ -1,7 +1,10 @@
+.theme-dark{
+  --playing: #a3425d;
+}
+
 :root {
   --spotify-vencord-wave-width: 240px;
-  --spotify-vencord-color: #9b465e;
-  --spotify-vencord-color2: #7b3a4c9b;
+  --spotify-vencord-color: var(--playing);
   --spotify-vencord-text: 220deg 16% 21%;
 }
 
@@ -52,7 +55,8 @@
 
 #vc-spotify-player::after {
   z-index: 0;
-  background: var(--spotify-vencord-color2);
+  background: var(--spotify-vencord-color);
+  opacity: 0.4;
   animation: spotifywave 12s linear infinite;
 }
 
@@ -166,5 +170,4 @@
   right:-12px;
   top:-6px;
 }
-
 
