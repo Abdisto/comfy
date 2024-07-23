@@ -464,6 +464,9 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   background-color: var(--accent-color);
   filter: brightness(0.7);
 }
+.lookFilled_dd4f85.colorPrimary_dd4f85:hover {
+    filter: brightness(0.9);
+}
 
 .wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
   background-color: var(--accent-color);
