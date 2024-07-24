@@ -5,7 +5,7 @@
 }
 
 #vc-spotify-player#vc-spotify-player {
-    background:var(--spotify-vencord-color);border-bottom:none
+  background:var(--spotify-vencord-color);border-bottom:none
 }
 
 #vc-spotify-player {
@@ -75,7 +75,7 @@
 }
 
 #vc-spotify-player [class^=bar] {
-    background: hsla(var(--spotify-vencord-text) / 0.2);
+  background: hsla(var(--spotify-vencord-text) / 0.2);
 }
 
 #vc-spotify-player 
@@ -100,20 +100,23 @@
 #vc-spotify-player .vc-spotify-shuffle-on.vc-spotify-shuffle-on:hover,
 #vc-spotify-player .vc-spotify-repeat-context.vc-spotify-repeat-context:hover,
 #vc-spotify-player .vc-spotify-repeat-track.vc-spotify-repeat-track:hover {
-    color:hsla(var(--spotify-vencord-text)/1)
+  color:hsla(var(--spotify-vencord-text)/1)
 } 
 
 #vc-spotify-player .vc-spotify-repeat-off.vc-spotify-repeat-off.vc-spotify-repeat-off,
 #vc-spotify-player .vc-spotify-shuffle-off.vc-spotify-shuffle-off.vc-spotify-shuffle-off {
-    color:hsla(var(--spotify-vencord-text)/0.5)
+  color:hsla(var(--spotify-vencord-text)/0.5)
 } 
 
 #vc-spotify-player .vc-spotify-button.vc-spotify-button {
-    transition:background .1s;color:hsla(var(--spotify-vencord-text)/1)
+  transition:background .1s;color:hsla(var(--spotify-vencord-text)/1)
 } 
+.vc-spotify-button:hover {
+  border-radius: 5px;
+}
 
 .vc-spotify-comma.vc-spotify-comma{
-    color:hsla(var(--spotify-vencord-text)/1)
+  color:hsla(var(--spotify-vencord-text)/1)
 }
 
 #vc-spotify-titles {
