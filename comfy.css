@@ -513,11 +513,15 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   border-radius: 5px;
 }
 
+
+.circleIconButton_db6521 {
+  color: var(--background-accent);
+}
 .circleIconButton_db6521:hover {
   background-color: var(--background-accent);
 }
-.circleIconButton_db6521 {
-  color: var(--background-accent);
+.circleIconButton_db6521.selected_db6521 {
+  background-color: var(--background-accent);
 }
 
 .iconBadge_c96c45.isCurrentUserConnected_c96c45 {
