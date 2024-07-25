@@ -549,3 +549,8 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 .lookFilled_dd4f85.colorBrand_dd4f85 {
   border-radius: 5px;
 }
+
+
+.welcomeCTAButtonOuter_f6dde0.button_dd4f85.lookFilled_dd4f85.colorPrimary_dd4f85.sizeMedium_dd4f85.grow_dd4f85 {
+    background-color: var(--background-secondary);
+}
