@@ -457,10 +457,10 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   background-color: var(--accent-color);
 }
 .lookFilled_dd4f85.colorBrand_dd4f85 { /*Buttons Color*/
-  background-color: var(--accent-color);
+  background-color: var(--background-accent);
 }
 .lookFilled_dd4f85.colorBrand_dd4f85:hover { /*Buttons Color Hover*/
-  background-color: var(--accent-color);
+  background-color: var(--background-accent);
   filter: brightness(0.7);
 }
 .lookFilled_dd4f85.colorPrimary_dd4f85:hover {
