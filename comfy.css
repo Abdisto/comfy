@@ -302,9 +302,8 @@
 }
 
 .theme-dark .themed_fc4f04{
-  background-color: var(--background-background-brighter);
+  background-color: var(--background-brighter);
 }
-
 
 
 :root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b{
@@ -465,16 +464,16 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 
 .wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
-  background-color: var(--accent-color);
+  background-color: var(--background-accent);
 }
 
 .button_adcaac .buttonColor_adcaac.buttonActive_adcaac, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac {
-  background-color: var(--accent-color);
+  background-color: var(--background-accent);
   filter: brightness(0.7);
 }
 
 .button_adcaac .buttonColor_adcaac.buttonActive_adcaac, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover {
-  background-color: var(--accent-color);
+  background-color: var(--background-accent);
   filter: brightness(1.2);
 }
 
