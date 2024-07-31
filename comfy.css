@@ -285,8 +285,7 @@
 }
 
 
-.mask_c51b4e rect[fill="black"]:not([mask="url(#svg-mask-status-online-mobile)"]),
-.mask_c51b4e rect[fill="white"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
+.mask_c51b4e rect[fill="black"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
   display: none;
 }
 .pointerEvents_c51b4e{
