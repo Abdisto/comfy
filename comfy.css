@@ -582,6 +582,9 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 
 
-.title_a7d72e.forumOrHome_ff5f90.container_fc4f04.themed_fc4f04 { /*thread top band Color*/
+.title_a7d72e.forumOrHome_ff5f90.container_fc4f04.themed_fc4f04 { /*thread top band color*/
   background-color: var(--background-primary);
+}
+.scroller_bea0d0.thin_c49869.scrollerBase_c49869 { /*@ Scroll list color*/
+  background-color: var(--background-secondary);
 }
