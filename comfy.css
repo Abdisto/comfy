@@ -301,10 +301,6 @@
   border-radius: var(--avatar-radius);
 }
 
-:root .userPopoutOuter_c69a7b .userPopoutOverlayBackground_c69a7b{
-  margin-top: 50px;
-}
-
 .customHeader_cfe282{
   padding-top: 120px;
 }
