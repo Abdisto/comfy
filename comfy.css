@@ -580,3 +580,8 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .button_f9d37d.button_dd4f85.lookFilled_dd4f85.colorBrand_dd4f85.themeColor_f9d37d.primary_f9d37d.sizeSmall_dd4f85.grow_dd4f85 {
   background-color: var(--background-secondary);
 }
+
+
+.title_a7d72e.forumOrHome_ff5f90.container_fc4f04.themed_fc4f04 { /*thread top band Color*/
+  background-color: var(--background-primary);
+}
