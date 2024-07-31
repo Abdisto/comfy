@@ -406,10 +406,10 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   background-color: var(--accent-color);
 }
 .lookFilled_dd4f85.colorBrand_dd4f85 { /*Buttons Color*/
-  background-color: var(--background-accent);
+  background-color: var(--background-brighter);
 }
 .lookFilled_dd4f85.colorBrand_dd4f85:hover { /*Buttons Color Hover*/
-  background-color: var(--background-accent);
+  background-color: var(--background-brighter);
   filter: brightness(0.7);
 }
 .lookFilled_dd4f85.colorPrimary_dd4f85:hover {
@@ -421,12 +421,12 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 
 .button_adcaac .buttonColor_adcaac.buttonActive_adcaac, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac {
-  background-color: var(--background-accent);
+  background-color: var(--background-brighter);
   filter: brightness(0.7);
 }
 
 .button_adcaac .buttonColor_adcaac.buttonActive_adcaac, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover {
-  background-color: var(--background-accent);
+  background-color: var(--background-brighter);
   filter: brightness(1.2);
 }
 
