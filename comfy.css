@@ -583,6 +583,10 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .container_c1519f {
   background-color: var(--background-secondary);
 }
+.biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .biteSizeInnerThemed_c69a7b {
+  background-color: var(--background-tertiary);
+}
+
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .container_c1519f, 
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .button_f9d37d.button_dd4f85.lookFilled_dd4f85.colorPrimary_dd4f85.themeColor_f9d37d.primary_f9d37d.sizeSmall_dd4f85.grow_dd4f85 {
   background-color: var(--background-secondary);
