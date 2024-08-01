@@ -331,8 +331,6 @@
 .contentColumn_c25c6d.contentColumnDefault_c25c6d .grabber_c7a159 { /*Options Volume Grabber position FIX*/
   position: absolute;
   top: 21px;
-  background-color: var(--background-brighter);
-  border-color: var(--background-primary);
 }
 #user-context-user-volume > div.sliderContainer_e13f88 > div > div:nth-child(3) > div { /*Direct Path to User Volume Grabber position FIX + ²*/
   position: absolute;
@@ -372,7 +370,7 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   }
 }
 
-.clickableUsername_c32acf, .nickname_c32acf.fullSize_c32acf{ /*User Name Gradient + Hover*/
+.clickableUsername_c32acf, .nickname_c32acf.fullSize_c32acf{ /*User Name Gradient*/
   background: linear-gradient(90deg, #feb47b, #ff7e5f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
