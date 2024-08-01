@@ -6,7 +6,7 @@ If you find any inconsistencies or unfixed bugs, please report these by opening 
 You could also reach out to me via. Discord: https://discordapp.com/users/289062995269648386
 
 # Usage
-Just add this to the online themes field In Vencord/Vesktop 
+Just add this to the online themes field In Vencord/Vesktop:
 
 https://raw.githubusercontent.com/BlacklightYT/comfy/main/comfy.css
 
