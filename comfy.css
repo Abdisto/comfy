@@ -503,7 +503,7 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 
 .lookFilled_dd4f85.colorBrand_dd4f85:disabled, .lookFilled_dd4f85.colorBrand_dd4f85[aria-disabled=true] { /*Server Soundboard Not allowed button color fix*/
-  background-color: var(--background-brighter);
+  background-color: var(--background-secondary);
 }
 
 .userPopoutInner_c69a7b.userProfileInner_c69a7b.userProfileInnerThemedNonPremium_c69a7b .popoutBanner_c3e427 { /*Approved and Not-Approved Bot banner fix*/
