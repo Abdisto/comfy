@@ -361,15 +361,29 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 .footer_b07019 { /*Edit Profile Padding FIX*/
   padding: 0 12px 12px;
 }
+
+
+@-webkit-keyframes transition {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
 .clickableUsername_c32acf, .nickname_c32acf.fullSize_c32acf{ /*User Name Gradient + Hover*/
-  background: linear-gradient(90deg, var(--accent-color), rgb(140, 52, 255));
+  background: linear-gradient(90deg, #feb47b, #ff7e5f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-animation: transition 10s infinite linear;
 }
+
 .userTagUsername_c32acf{
   background: linear-gradient(90deg, #ff7e5f, #feb47b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-animation: transition 10s infinite linear;
 }
 .clickableUsername_c32acf:hover, .nickname_c32acf.fullSize_c32acf:hover{
   filter: brightness(1.4);
@@ -410,7 +424,7 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 .lookFilled_dd4f85.colorBrand_dd4f85:hover { /*Buttons Color Hover*/
   background-color: var(--background-brighter);
-  filter: brightness(0.8);
+  filter: brightness(0.9);
 }
 .lookFilled_dd4f85.colorPrimary_dd4f85:hover {
   filter: brightness(0.9);
@@ -427,9 +441,8 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 
 .button_adcaac .buttonColor_adcaac.buttonActive_adcaac, .button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover {
   background-color: var(--background-brighter);
-  filter: brightness(1.2);
+  filter: brightness(1.3);
 }
-
 
 
 .iconBadge_c96c45.isCurrentUserConnected_c96c45 {
@@ -473,38 +486,12 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   background-color: var(--background-accent);
 }
 
-.iconBadge_c96c45.isCurrentUserConnected_c96c45 {
-  background-color: var(--background-accent);
-}
 
-.wrapper_c5f96a:hover {
-  filter: brightness(1.4);
-  filter: saturate(1.6);
-}
-
-.vcd-screen-picker-radio[data-checked=true] {
-  background-color: var(--accent-color) !important;
-  border-color: var(--accent-color) !important;
-}
-
-.vcd-screen-picker-radios label:hover {
-  filter: brightness(0.8);
-}
-
-.select_f6639d:hover {
-  filter: brightness(0.8);
-}
-
-.lookFilled_dd4f85.colorBrand_dd4f85 {
-  border-radius: 5px;
-}
 
 
 .welcomeCTAButtonOuter_f6dde0.button_dd4f85.lookFilled_dd4f85.colorPrimary_dd4f85.sizeMedium_dd4f85.grow_dd4f85 {
     background-color: var(--background-secondary);
 }
-
-
 
 
 
@@ -587,4 +574,32 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 .scroller_bea0d0.thin_c49869.scrollerBase_c49869 { /*@ Scroll list color*/
   background-color: var(--background-secondary);
+}
+
+
+
+/* .appMount_ea7e65 .app_bd26cc { opacity: 0; transition: 0.15s;}
+.appMount_ea7e65:hover .app_bd26cc { opacity: 1; transition: 0.15s;}
+.appMount_ea7e65:after {
+    content: "";
+    position: fixed;
+    background: url('https://raw.githubusercontent.com/T3M1N4L/T3M1N4L/main/images/XOsX.gif') center/20% no-repeat;
+    width: 100%; height: 100%;
+    opacity: 1;
+}
+.appMount_ea7e65:hover:after { opacity: 0; pointer-events: none;}
+.role_f9575e {
+  transform: translate(0);
+  overflow: hidden;
+  border: 0;
+
+  --transparency: .4;
+  border-radius: 5px;
+} */
+
+.fieldList_b69b77 .form_c1668f .submitButton_c1668f, .sortDropdown_a6d69a, .pill_c993da, .tagsButton_a6d69a, .lookFilled_dd4f85.colorPrimary_dd4f85 {
+    background-color: var(--background-brighter);
+}
+.fieldList_b69b77 .form_c1668f .submitButton_c1668f, .sortDropdown_a6d69a, .pill_c993da, .tagsButton_a6d69a, .lookFilled_dd4f85.colorPrimary_dd4f85:hover {
+    background-color: var(--background-brighter);
 }
