@@ -330,7 +330,7 @@
 
 .contentColumn_c25c6d.contentColumnDefault_c25c6d .grabber_c7a159 { /*Options Volume Grabber position FIX*/
   position: absolute;
-  top: 21px;
+  top: 22px;
 }
 #user-context-user-volume > div.sliderContainer_e13f88 > div > div:nth-child(3) > div { /*Direct Path to User Volume Grabber position FIX + ²*/
   position: absolute;
