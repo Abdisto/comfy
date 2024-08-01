@@ -385,14 +385,6 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   -webkit-text-fill-color: transparent;
   -webkit-animation: transition 10s infinite linear;
 }
-.clickableUsername_c32acf:hover, .nickname_c32acf.fullSize_c32acf:hover{
-  filter: brightness(1.4);
-  filter: contrast(4);
-}
-.userTagUsername_c32acf:hover {
-  filter: brightness(1.4);
-  filter: saturate(4);
-}
 
 
 .px_a9e77f {
@@ -487,23 +479,19 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 
 
-
-
 .welcomeCTAButtonOuter_f6dde0.button_dd4f85.lookFilled_dd4f85.colorPrimary_dd4f85.sizeMedium_dd4f85.grow_dd4f85 {
-    background-color: var(--background-secondary);
+  background-color: var(--background-secondary);
 }
-
-
 
 
 .form_c1668f.submitButton_c1668f.sortDropdown_a6d69a.pill_c993da.tagsButton_a6d69a.lookFilled_dd4f85.colorPrimary_dd4f85{
-    background-color: var(--background-tertiary);
+  background-color: var(--background-tertiary);
 }
 .list_fe2299{
-    background-color: var(--background-primary);
+  background-color: var(--background-primary);
 }
 .categoryHeader_fe2299{
-    background-color: var(--background-secondary);
+  background-color: var(--background-secondary);
 }
 
 
@@ -581,11 +569,11 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 /* .appMount_ea7e65 .app_bd26cc { opacity: 0; transition: 0.15s;}
 .appMount_ea7e65:hover .app_bd26cc { opacity: 1; transition: 0.15s;}
 .appMount_ea7e65:after {
-    content: "";
-    position: fixed;
-    background: url('https://raw.githubusercontent.com/T3M1N4L/T3M1N4L/main/images/XOsX.gif') center/20% no-repeat;
-    width: 100%; height: 100%;
-    opacity: 1;
+  content: "";
+  position: fixed;
+  background: url('https://raw.githubusercontent.com/T3M1N4L/T3M1N4L/main/images/XOsX.gif') center/20% no-repeat;
+  width: 100%; height: 100%;
+  opacity: 1;
 }
 .appMount_ea7e65:hover:after { opacity: 0; pointer-events: none;}
 .role_f9575e {
@@ -598,8 +586,8 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 } */
 
 .fieldList_b69b77 .form_c1668f .submitButton_c1668f, .sortDropdown_a6d69a, .pill_c993da, .tagsButton_a6d69a, .lookFilled_dd4f85.colorPrimary_dd4f85 {
-    background-color: var(--background-brighter);
+  background-color: var(--background-brighter);
 }
 .fieldList_b69b77 .form_c1668f .submitButton_c1668f, .sortDropdown_a6d69a, .pill_c993da, .tagsButton_a6d69a, .lookFilled_dd4f85.colorPrimary_dd4f85:hover {
-    background-color: var(--background-brighter);
+  background-color: var(--background-brighter);
 }
