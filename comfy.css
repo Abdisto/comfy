@@ -698,7 +698,7 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
   filter: brightness(0.8);
 }
 
-.checkbox_f6cde8.box_f6cde8.checked_f6cde8.style {
+.checkbox_f6cde8.box_f6cde8.checked_f6cde8 {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
 }
