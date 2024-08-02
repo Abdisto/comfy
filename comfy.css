@@ -698,7 +698,8 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
   filter: brightness(0.8);
 }
 
-.checkbox_f6cde8.box_f6cde8.checked_f6cde8 {
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div:nth-child(4) > div.layer_c9e2da > div > div > form > div:nth-child(2) > div > div > div.modalContent_e1cc86.checkboxRow_da7eaa > label > div.checkbox_f6cde8.box_f6cde8.checked_f6cde8,
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div:nth-child(4) > div.layer_c9e2da > div > div > form > div:nth-child(2) > div > div > div:nth-child(1) > div.modalContent_e1cc86.checkboxRow_da7eaa > label > div.checkbox_f6cde8.box_f6cde8.checked_f6cde8 {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
 }
