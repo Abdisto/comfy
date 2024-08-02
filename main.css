@@ -129,6 +129,7 @@
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .mask_c51b4e circle,
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme .mask_c51b4e circle,
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .mask_c51b4e circle,
+.userPanelOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme.container_ecc60d .mask_c51b4e circle,
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme rect[fill="white"],
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme rect[fill="white"],
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme rect[fill="black"],
@@ -145,13 +146,20 @@
     drop-shadow(0px -1px 0 rgba(40, 40, 40, 0.6));
 }
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e,
-.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .pointerEvents_c51b4e,
-.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e {
+.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e,
+.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .pointerEvents_c51b4e {
   filter:    
     drop-shadow(2px 0px 0 rgba(40, 40, 40, 0.6)) 
     drop-shadow(0px 2px 0 rgba(40, 40, 40, 0.6)) 
     drop-shadow(-2px 0px 0 rgba(40, 40, 40, 0.6))
     drop-shadow(0px -2px 0 rgba(40, 40, 40, 0.6));
+}
+.userPanelOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme.container_ecc60d .pointerEvents_c51b4e {
+  filter:    
+    drop-shadow(1px 0px 0 rgba(40, 40, 40, 0.6)) 
+    drop-shadow(0px 1px 0 rgba(40, 40, 40, 0.6)) 
+    drop-shadow(-1px 0px 0 rgba(40, 40, 40, 0.6))
+    drop-shadow(0px -1px 0 rgba(40, 40, 40, 0.6));
 }
 :root .wrapper_c51b4e .dots_ce0450 {
   overflow: visible;
