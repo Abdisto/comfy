@@ -493,11 +493,6 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 }
 
 
-
-.volumeButtonSlider_ea7ad5.sliderVisible_ea7ad5 { /*Stream Volume Color*/
-  background-color: var(--accent-color);
-}
-
 .contentColumn_c25c6d.contentColumnDefault_c25c6d .grabber_c7a159, .content_f9a4c9.thin_c49869.scrollerBase_c49869 .grabber_c7a159 { /*Server Soundboard Volume Grabber position FIX*/
   top: 20px;
 }
