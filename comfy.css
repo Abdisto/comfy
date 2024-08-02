@@ -697,3 +697,7 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
 .settingsGroup_a78967 .item_aa2afb.selectorButton_a78967.selectorButtonSelected_a78967:hover {
   filter: brightness(0.8);
 }
+
+.modalSize_e1cc86 .checkbox_f6cde8.box_f6cde8.checked_f6cde8 {
+  background-color: var(--accent-color);
+}
