@@ -711,8 +711,5 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
   background-color: var(--background-tertiary);
 }
 .scrollableContent_c7c1c7.thin_c49869.scrollerBase_c49869.fade_c49869 {
-  padding-right: 15px;
-}
-.scrollableContent_c7c1c7 {
-  padding: 0 10px;
+  padding-right: 15px !important;
 }
