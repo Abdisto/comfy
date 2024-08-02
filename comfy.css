@@ -710,3 +710,6 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
 .container_e5da8b .appDetailsContainer_e5da8b {
   background-color: var(--background-tertiary);
 }
+.scrollableContent_c7c1c7.thin_c49869.scrollerBase_c49869.fade_c49869 {
+  padding-right: 15px;
+}
