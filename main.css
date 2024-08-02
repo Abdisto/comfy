@@ -154,7 +154,8 @@
     drop-shadow(-2px 0px 0 rgba(40, 40, 40, 0.6))
     drop-shadow(0px -2px 0 rgba(40, 40, 40, 0.6));
 }
-.userPanelOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme.container_ecc60d .pointerEvents_c51b4e {
+.userPanelOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme.container_ecc60d .pointerEvents_c51b4e,
+.userPanelOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark.container_ecc60d .pointerEvents_c51b4e{
   filter:    
     drop-shadow(1px 0px 0 rgba(40, 40, 40, 0.6)) 
     drop-shadow(0px 1px 0 rgba(40, 40, 40, 0.6)) 
