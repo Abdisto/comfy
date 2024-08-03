@@ -4,10 +4,6 @@
   --spotify-vencord-text: 220deg 16% 21%;
 }
 
-:root .activityPanel_a4d4d9, :root .container_adcaac {
-  z-index: 9;
-}
-
 #vc-spotify-player#vc-spotify-player {
   background:var(--spotify-vencord-color);border-bottom:none
 }
@@ -48,13 +44,13 @@
 }
 
 #vc-spotify-player::before {
-  z-index: 11;
+  z-index: 4;
   background: var(--spotify-vencord-color);
   animation: spotifywave 8s linear infinite;
 }
 
 #vc-spotify-player::after {
-  z-index: 10;
+  z-index: 3;
   background: var(--spotify-vencord-color);
   opacity: 0.65;
   animation: spotifywave 12s linear infinite;
