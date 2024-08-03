@@ -4,6 +4,10 @@
   --spotify-vencord-text: 220deg 16% 21%;
 }
 
+:root .activityPanel_a4d4d9, :root .container_adcaac {
+  z-index: 9;
+}
+
 #vc-spotify-player#vc-spotify-player {
   background:var(--spotify-vencord-color);border-bottom:none
 }
