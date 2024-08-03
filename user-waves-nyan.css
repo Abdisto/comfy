@@ -44,13 +44,13 @@
 }
 
 #vc-spotify-player::before {
-  z-index: 1;
+  z-index: 11;
   background: var(--spotify-vencord-color);
   animation: spotifywave 8s linear infinite;
 }
 
 #vc-spotify-player::after {
-  z-index: 0;
+  z-index: 10;
   background: var(--spotify-vencord-color);
   opacity: 0.65;
   animation: spotifywave 12s linear infinite;
