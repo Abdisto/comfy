@@ -639,8 +639,7 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   top: 1px;
 }
 .botText_a9e77f {
-  color: var(--accent-color);
-  filter: brightness(0.65);
+  color: white;
 }
 
 .ping_c02c63, .labelWrapper_c02c63 {
