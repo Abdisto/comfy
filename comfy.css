@@ -730,6 +730,11 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
   border-radius: 8px;
 }
 
-.hangStatusSmall_ba4b17.hangStatusContainer_ba4b17 {
+.hangStatusSmall_ba4b17.hangStatusContainer_ba4b17, .hangStatusContainer_ba4b17 {
   border-radius: 12px;
+}
+
+.hangStatusSmall_ba4b17 .hangStatusIcon_ba4b17 {
+  margin-left: 0.02rem !important;
+  margin-bottom: 0.02rem !important;
 }
