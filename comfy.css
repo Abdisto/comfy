@@ -725,3 +725,11 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
 .avatarSmall_d80634 {
   border-radius: var(--avatar-radius);
 }
+
+.status_ba4b17.interactive_ba4b17 {
+  border-radius: 8px;
+}
+
+.hangStatusSmall_ba4b17.hangStatusContainer_ba4b17 {
+  border-radius: 12px;
+}
