@@ -62,7 +62,7 @@
   --b: calc(var(--blue) * 0.0722);
   --sum: calc(var(--r) + var(--g) + var(--b));
   --per-brightness: calc(var(--sum) / 255);
-  --accent-color: hsl(0, 0%, calc((var(--per-brightness) - var(--threshold)) * -1000%));
+  --accent-color-hsl: hsl(0, 0%, calc((var(--per-brightness) - var(--threshold)) * -1000%));
   /* Src: https://css-tricks.com/switch-font-color-for-different-backgrounds-with-css/ */
   
   --modal-background: #23283d;
