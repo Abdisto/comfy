@@ -61,7 +61,8 @@
   --g: calc(var(--green) * 0.7152);
   --b: calc(var(--blue) * 0.0722);
   --sum: calc(var(--r) + var(--g) + var(--b));
-  --accent-color-hsl: calc(var(--sum) / 255);
+  --per-brightness: calc(var(--sum) / 255);
+  --accent-color: hsl(0, 0%, calc((var(--per-brightness) - var(--threshold)) * -1000%));
   /* Src: https://css-tricks.com/switch-font-color-for-different-backgrounds-with-css/ */
   
   --modal-background: #23283d;
@@ -650,10 +651,10 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
   top: 0;
 }
 .botText_a9e77f {
-  color: hsl(0, 0%, calc((var(--accent-color-hsl) - var(--threshold)) * -1000%));
+  color: var(--accent-color-hsl);
 }
 .botTagVerified_a9e77f path {
-  fill: hsl(0, 0%, calc((var(--accent-color-hsl) - var(--threshold)) * -1000%));
+  fill: var(--accent-color-hsl);
 }
 
 .ping_c02c63, .labelWrapper_c02c63 {
