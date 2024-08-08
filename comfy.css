@@ -747,3 +747,15 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
   margin-left: 0.02rem !important;
   margin-bottom: 0.02rem !important;
 }
+
+.appLauncherOnboardingCommandName_f9f2ca.clickable_f9f2ca:hover {
+  background-color: var(--accent-color);
+}
+
+.appsIcon_f9f2ca::after path {
+  fill: var(--accent-color);
+}
+
+.appLauncherOnboardingCommandName_f9f2ca.clickable_f9f2ca {
+  color: var(--accent-color);
+}
