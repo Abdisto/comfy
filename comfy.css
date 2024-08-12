@@ -37,7 +37,7 @@
   --dnd: #f04747;
   --offline: #747f8d;
   --streaming: #593695;
-  --playing: #9b465e;
+  --playing: #9b465e; /*The spotify wave and base color*/
   --role-circle: 5px;
   --discord-logo: none;
 }
@@ -50,6 +50,14 @@
   --background-accent: #9f72da;
   --background-brighter: #2d3550;
 
+  /*The general accent color, if you want to have a different one 
+  you have to modify the --red, --green and --blue vars.
+  Why do I make it like that: as you can see in the src, having
+  the opportunity to change the background color to anything
+  leaves the possibility of hard readability. Thus changing the
+  color of the text based on the perceived brightness makes it easier
+  to read. this color gets represented by --accent-color-hsl
+  */
   --red: 163;
   --green: 66;
   --blue: 93;
