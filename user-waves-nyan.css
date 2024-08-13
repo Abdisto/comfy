@@ -70,7 +70,8 @@
 #vc-spotify-player .vc-spotify-ellipoverflow,
 #vc-spotify-player .vc-spotify-artist,
 #vc-spotify-player .vc-spotify-album,
-#vc-spotify-player .vc-spotify-time-right {
+#vc-spotify-player .vc-spotify-time-right, 
+#vc-spotify-player .vc-spotify-time-left {
   color: hsla(var(--spotify-vencord-text) / 2);
 }
 
