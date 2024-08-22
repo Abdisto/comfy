@@ -360,12 +360,13 @@
 
 /*User Popout*/
 
-:root .bannerSVGWrapper_b32cc2 { /*Banner Gradient*/
+.mask_c3e427  { /*Banner Gradient*/
   mask-image: linear-gradient(black 10%, transparent 100%);
 }
-.body_b07019 { /*Spotify Padding FIX*/
-  padding: 0 12px 12px;
+.header_b07019 mask { /*Banner Circle mask removal*/
+  display: none;
 }
+  
 div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding FIX*/
   padding-right: 12px !important;
 }
