@@ -363,7 +363,7 @@
 .mask_c3e427  { /*Banner Gradient*/
   mask-image: linear-gradient(black 10%, transparent 100%);
 }
-.header_b07019 mask { /*Banner Circle mask removal*/
+.header_b07019 mask, .mask_c3e427 mask { /*Banner Circle mask removal*/
   display: none;
 }
   
@@ -376,6 +376,9 @@ div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding 
 
 .overlay_f94206:after { /*Profile Avatar Hover FIX*/
   border-radius: var(--avatar-radius);  
+}
+.avatarStack_c51b4e.overlay_f18fcb::after { /*Profile Avatar Hover FIX (Settings)*/
+  border-radius: var(--avatar-radius);
 }
 .footer_b07019 { /*Edit Profile Padding FIX*/
   padding: 0 12px 12px;
