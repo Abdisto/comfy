@@ -796,3 +796,66 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
 .connectedAccountNameText_f3eb60 { 
   cursor: wait;
 }
+
+
+.username_f9f2ca::before { /*Code Snippet by @nyri4 - Username Background color*/
+  content: ''; 
+  width: calc(100% + 10px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.2; 
+  position: absolute; 
+  top: 0; 
+  z-index: -1;
+  left: -5px;
+}
+.username_f9f2ca {
+  margin-left: 5px;
+}
+
+.member_a31c43:hover { /*Code Snippet by @krixical - User hover anim.*/
+  transition: all 0.2s;
+  transform: translatex(-3px);
+}
+
+.content_a7d72e.container_f1fd9c, .pageBody_c2efea { /*Channels&roles color*/
+  background-color: var(--background-primary) !important;
+}
+.prompt_c6b11b, .profileCard_c6b11b {
+  background-color: var(--background-secondary);
+}
+.content_eed6a8.scrollerInner_f04d06 {
+  background-color: var(--background-secondary);
+  margin-right: 15px;
+}
+.header_f1fd9c.container_fc4f04.themed_fc4f04 {
+  background-color: var(--background-primary) !important;
+}
+
+.lookOutlined_dd4f85.colorPrimary_dd4f85 { /*Return to help in channels&roles*/
+  border-color: var(--background-brighter);
+}
+.lookOutlined_dd4f85.colorPrimary_dd4f85:hover {
+  background-color: var(--background-secondary-alt);
+  border-color: var(--background-tertiary);
+}
+
+.action_e3f878 { /*Server guide buttons*/
+  background-color: var(--background-secondary);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Define the state when the action occurs (e.g., on hover) */
+.action_e3f878:hover {
+  background-color: var(--background-secondary-alt) !important; /* Custom color for the hover state */
+}
+
+.container_e1e976 .link_d8bfb3 { /*Margin in threads bug?*/
+  margin-left: -28px !important;
+}
+
+.card_ae1fa2 { /*Bot/User playing card color*/
+  background-color: var(--background-secondary-alt);
+}
