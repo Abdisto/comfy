@@ -859,3 +859,7 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
 .card_ae1fa2 { /*Bot/User playing card color*/
   background-color: var(--background-secondary-alt);
 }
+
+.svg_afd438 .avatar_d03bba, .avatarContainer_d03bba .avatar_d03bba {
+  border-radius: 4px;
+}
