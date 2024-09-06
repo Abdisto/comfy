@@ -363,7 +363,7 @@
 .accountProfileCard_b69b77 mask, .biteSizeInner_c69a7b mask, .fullSizeOuter_c69a7b mask { /*Banner Circle mask removal*/
   display: none;
 }
-.accountProfilePopoutWrapper_b2ca13 foreignObject, .biteSizeInner_c69a7b foreignObject, .fullSizeOuter_c69a7b foreignObject { /*Banner Gradient*/
+.accountProfilePopoutWrapper_b2ca13 foreignObject, .biteSizeInner_c69a7b foreignObject, .fullSizeOuter_c69a7b foreignObject, .accountProfileCard_b69b77 foreignObject  { /*Banner Gradient*/
   mask-image: linear-gradient(black 10%, transparent 100%);
 }
 .iconContainerLeft_d90b3d.iconContainer_d90b3d foreignObject, .item_d90b3d.colorDefault_d90b3d foreignObject { /*Not the status icons*/
