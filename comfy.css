@@ -373,6 +373,9 @@
 div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding FIX*/
   padding-right: 12px !important;
 }
+.body_ad5fac {
+  padding-right: 16px !important
+}
 .activity_cd74cc {
   background-color: var(--background-secondary-alt); /*Spotify*/
 }
