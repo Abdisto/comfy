@@ -79,6 +79,7 @@
 :root .nowPlayingColumn_c2739c .pointerEvents_c51b4e[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
   width: 12px;
   x: 24;
+  rx: 3px;
 }
 :root .channel_c91bad .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
 :root .members_cbd271 .pointerEvents_c51b4e[mask="url(#svg-mask-status-online-mobile)"],
@@ -121,9 +122,6 @@
 :root .peopleListItem_d51464 .pointerEvents_c51b4e {
   stroke: var(--background-primary);
 }
-.pointerEvents_c51b4e {
-  rx: 5px;
-}
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .mask_c51b4e circle, 
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme .mask_c51b4e circle,
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .mask_c51b4e circle,
@@ -139,20 +137,27 @@
 }
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .pointerEvents_c51b4e, 
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e, 
-.biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e {
-  stroke: black;
-  rx: 3px;
-}
+.biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e,
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e,
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e,
-.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .pointerEvents_c51b4e {
-  stroke: black;
-  rx: 3px;
-}
+.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .pointerEvents_c51b4e,
 .userPanelOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme.container_ecc60d .pointerEvents_c51b4e,
 .userPanelOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark.container_ecc60d .pointerEvents_c51b4e,
-.clickable_f94206 .mask_c51b4e.svg_c51b4e > .cursorDefault_c51b4e rect{
-  stroke: black;
+.clickable_f94206 .mask_c51b4e.svg_c51b4e > .cursorDefault_c51b4e rect {
+  stroke: var(--background-primary);
+  stroke-width: 2px;
+  rx: 6px;
+}
+.biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]), 
+.biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]), 
+.biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]),
+.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]),
+.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]),
+.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]),
+.userPanelOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme.container_ecc60d .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]),
+.userPanelOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark.container_ecc60d .pointerEvents_c51b4e:not([mask="url(#svg-mask-status-online-mobile)"]),
+.clickable_f94206 .mask_c51b4e.svg_c51b4e > .cursorDefault_c51b4e rect:not([mask="url(#svg-mask-status-online-mobile)"]) {
+  stroke: var(--background-primary);
   rx: 3px;
 }
 .clickable_f94206 .mask_c51b4e.svg_c51b4e > .cursorDefault_c51b4e rect { /*Changing status causes weird issues with the status box [FIX]*/
