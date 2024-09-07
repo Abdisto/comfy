@@ -369,13 +369,11 @@
 .iconContainerLeft_d90b3d.iconContainer_d90b3d foreignObject, .item_d90b3d.colorDefault_d90b3d foreignObject { /*Not the status icons*/
   mask-image: none;
 }
-  
-div.body_b07019.thin_c49869.scrollerBase_c49869.fade_c49869 { /*Spotify Padding FIX*/
-  padding-right: 12px !important;
-}
-.body_ad5fac {
+
+.body_ad5fac, .body_b8cc6d { /*Padding Issue for Activity FIX*/
   padding-right: 16px !important
 }
+
 .activity_cd74cc {
   background-color: var(--background-secondary-alt); /*Spotify*/
 }
