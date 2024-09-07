@@ -140,29 +140,20 @@
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .pointerEvents_c51b4e, 
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e, 
 .biteSizeOuter_c69a7b.userPopoutOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e {
-  filter:    
-    drop-shadow(1px 0px 0 rgba(40, 40, 40, 0.6)) 
-    drop-shadow(0px 1px 0 rgba(40, 40, 40, 0.6)) 
-    drop-shadow(-1px 0px 0 rgba(40, 40, 40, 0.6))
-    drop-shadow(0px -1px 0 rgba(40, 40, 40, 0.6));
+  stroke: black;
+  rx: 3px;
 }
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e,
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-light.images-light.custom-theme-background.custom-profile-theme .pointerEvents_c51b4e,
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .pointerEvents_c51b4e {
-  filter:    
-    drop-shadow(2px 0px 0 rgba(40, 40, 40, 0.6)) 
-    drop-shadow(0px 2px 0 rgba(40, 40, 40, 0.6)) 
-    drop-shadow(-2px 0px 0 rgba(40, 40, 40, 0.6))
-    drop-shadow(0px -2px 0 rgba(40, 40, 40, 0.6));
+  stroke: black;
+  rx: 3px;
 }
 .userPanelOuter_c69a7b.userProfileOuterThemed_c69a7b.theme-dark.images-dark.custom-theme-background.custom-profile-theme.container_ecc60d .pointerEvents_c51b4e,
 .userPanelOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark.container_ecc60d .pointerEvents_c51b4e,
 .clickable_f94206 .mask_c51b4e.svg_c51b4e > .cursorDefault_c51b4e rect{
-  filter:    
-    drop-shadow(1px 0px 0 rgba(40, 40, 40, 0.6)) 
-    drop-shadow(0px 1px 0 rgba(40, 40, 40, 0.6)) 
-    drop-shadow(-1px 0px 0 rgba(40, 40, 40, 0.6))
-    drop-shadow(0px -1px 0 rgba(40, 40, 40, 0.6));
+  stroke: black;
+  rx: 3px;
 }
 .clickable_f94206 .mask_c51b4e.svg_c51b4e > .cursorDefault_c51b4e rect { /*Changing status causes weird issues with the status box [FIX]*/
   width: 16px;
