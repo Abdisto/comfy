@@ -174,12 +174,15 @@
 :root .wrapper_c51b4e .dots_ce0450 g {
   transform: translateY(2.5px);
 }
-:root .wrapper_c51b4e foreignObject,
 :root .callAvatarMask_a5cd29 foreignObject,
 :root .avatarContainer_c47562 foreignObject,
+:root .mask_c51b4e.svg_c51b4e foreignObject,
 :root .avatarMasked__0b3c8 {
   mask: none;
   -webkit-mask: none;
+}
+:root .avatarDecoration_c51b4e foreignObject[mask="url(#svg-mask-avatar-decoration-status-round-32)"] {
+  clip-path: polygon(0 0, 100% 0, 100% 67%, 73% 67%, 67% 73%, 67% 100%, 0 100%);
 }
 :root .wrapper_c51b4e,
 :root .avatar_c51b4e,
