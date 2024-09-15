@@ -363,9 +363,9 @@
 .accountProfileCard_b69b77 mask, .biteSizeInner_c69a7b mask, .fullSizeOuter_c69a7b mask, .userPanelOuter_c69a7b mask { /*Banner Circle mask removal*/
   display: none;
 }
-.accountProfileCard_b69b77 foreignObject, .biteSizeInner_c69a7b foreignObject, .fullSizeOuter_c69a7b foreignObject, .userPanelOuter_c69a7b foreignObject { /*Banner Gradient*/
+/*.accountProfileCard_b69b77 foreignObject, .biteSizeInner_c69a7b foreignObject, .fullSizeOuter_c69a7b foreignObject, .userPanelOuter_c69a7b foreignObject { Banner Gradient
   mask-image: linear-gradient(black 10%, transparent 100%);
-}
+}*/
 .iconContainerLeft_d90b3d.iconContainer_d90b3d foreignObject, .item_d90b3d.colorDefault_d90b3d foreignObject { /*Not the status icons*/
   mask-image: none;
 }
