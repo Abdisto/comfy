@@ -965,6 +965,10 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
 
 :root .userPopoutOuter_c69a7b {
   padding: 3.6px;
+  border-radius: 12px;
+}
+:root .userProfileInner_c69a7b {
+  border-radius: 10px;
 }
 
 /*Colors*/
