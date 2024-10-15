@@ -451,7 +451,7 @@
   -webkit-animation: transition 10s infinite linear;
 }
 .nickname_c32acf, .usernameRow_c32acf {
-  background: -webkit-linear-gradient(90deg, #feb47b, #ff7e5f);
+  background: linear-gradient(90deg, #feb47b, #ff7e5f);
   -webkit-background-clip: text;  
   filter: drop-shadow(1px 1px 1px #555);
 }
