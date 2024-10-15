@@ -16,7 +16,7 @@
 
 @import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
 
-
+@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/banner.css";
 
 :root {
   --disable-animations: 2s channel-unread infinite;
@@ -363,7 +363,6 @@
 .accountProfileCard_b69b77 mask, .biteSizeInner_c69a7b mask, .fullSizeOuter_c69a7b mask, .userPanelOuter_c69a7b mask { /*Banner Circle mask removal*/
   display: none;
 }
-@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/banner.css";
 .iconContainerLeft_d90b3d.iconContainer_d90b3d foreignObject, .item_d90b3d.colorDefault_d90b3d foreignObject { /*Not the status icons*/
   mask-image: none;
 }
