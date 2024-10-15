@@ -363,17 +363,58 @@
 .accountProfileCard_b69b77 mask, .biteSizeInner_c69a7b mask, .fullSizeOuter_c69a7b mask, .userPanelOuter_c69a7b mask { /*Banner Circle mask removal*/
   display: none;
 }
-/*.accountProfileCard_b69b77 foreignObject, .biteSizeInner_c69a7b foreignObject, .fullSizeOuter_c69a7b foreignObject, .userPanelOuter_c69a7b foreignObject { Banner Gradient
-  mask-image: linear-gradient(black 10%, transparent 100%);
-}*/
-.mask_d5fdb1 foreignObject {
-  mask-image: linear-gradient(black 10%, transparent 100%);
-}
+@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/banner.css";
 .iconContainerLeft_d90b3d.iconContainer_d90b3d foreignObject, .item_d90b3d.colorDefault_d90b3d foreignObject { /*Not the status icons*/
   mask-image: none;
 }
 .svg_afd438 {
   border-radius: 2px;
+}
+.avatar_f94206.biteSize_f94206.clickable_f94206, .avatar_f94206 { /*Avatar "shadow"*/
+  filter: drop-shadow(3px 3px 3px rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)));  
+}
+@property --angle{ /*Animated Borders*/
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.wrapper_c51b4e.avatar_b2ca13 {
+  position: relative;
+  z-index: 2;
+}
+.wrapper_c51b4e.avatar_b2ca13::after, .wrapper_c51b4e.avatar_b2ca13::before,
+.wrapper_c51b4e::after, .wrapper_c51b4e::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), transparent 50%, MediumOrchid );
+  top: 51%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 5px;
+  animation: 3s spin linear infinite;
+  
+}
+.wrapper_c51b4e::after, .wrapper_c51b4e::before {
+  padding: 3px;
+  top: 50%;
+  left: 50%;
+  background-image: conic-gradient(from var(--angle), transparent 50%, var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color));
+  border-radius: 7px;
+}
+.wrapper_c51b4e.avatar_b2ca13::before, .wrapper_c51b4e::before {
+  filter: blur(5px);
+}
+@keyframes spin {
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
 }
 
 .body_ad5fac, .body_b8cc6d { /*Padding Issue for Activity FIX*/
@@ -410,14 +451,23 @@
   -webkit-text-fill-color: transparent;
   -webkit-animation: transition 10s infinite linear;
 }
-
+.nickname_c32acf, .usernameRow_c32acf {
+  background: -webkit-linear-gradient(90deg, #feb47b, #ff7e5f);
+  -webkit-background-clip: text;  
+  filter: drop-shadow(1px 1px 1px #555);
+}
 .userTagUsername_c32acf{
   background: linear-gradient(90deg, #ff7e5f, #feb47b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: transition 10s infinite linear;
 }
-
+.userTag_c32acf {
+  font-size: 15px;
+  font-weight: 600;  
+  -webkit-background-clip: text;
+  filter: drop-shadow(1px 1px black);
+}
 
 .px_a9e77f {
   background-color: var(--accent-color);
@@ -828,6 +878,10 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
   transition: all 0.2s;
   transform: translatex(-3px);
 }
+.link_c91bad:hover, .link_d8bfb3:hover {
+  transition: all 0.2s;
+  transform: translatex(3px);
+}
 
 .content_a7d72e.container_f1fd9c, .pageBody_c2efea { /*Channels&roles color*/
   background-color: var(--background-primary) !important;
@@ -872,4 +926,59 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
 
 .svg_afd438 .avatar_d03bba, .avatarContainer_d03bba .avatar_d03bba {
   border-radius: 4px;
+}
+
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.chat_a7d72e > div.subtitleContainer_a7d72e > section > div > div.children_fc4f04 > div:nth-child(2) > div > svg > rect {
+  rx: 3px !important;
+  stroke: var(--background-primary);
+}
+.avatarDecoration_c51b4e foreignObject[mask="url(#svg-mask-avatar-decoration-status-mobile-32)"] {
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M 0 0 L 100 0 L 100 70 99 56 L 82.5 56 C 82 57, 72 55, 67 69 L 67 100 L 0 100 Z" fill="black"/></svg>'); /*Mask for avatar decoration not finished yet(User Popout/Mobile)*/
+}
+.svg_afd438 foreignObject {
+  /* mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="0,0 100,0 100,70.5 78,70.5 75.5,72 73.5,73.5 72,75.5 70.5,78 70.5,100 0,100" fill="black"/></svg>'); */
+  mask: none;
+}
+
+.content_eed6a8 > .svg_afd438.mask_c7d26b { /*I forgor*/
+  position: absolute !important;
+  top: 25px !important;
+  left: 25px !important; 
+}
+.circularImage_e85446, .container_e85446 img {
+  border-radius: 5px;
+}
+
+.image_f9bbb4 {
+  border-radius: var(--avatar-radius);
+}
+.icon_a64689 {
+  border-radius: 4px;
+}
+.maskBackground_f9bbb4 {
+  display: none;
+}
+
+.contentWrapper_c721cc.contentWrapperExpanded_c721cc, .wrapper_c721cc.wrapperVisible_c721cc { /*Hiding the disturbing gift inventory ad at the bottom left*/
+  display: none;
+}
+
+
+:root .userPopoutOuter_c69a7b {
+  padding: 3.6px;
+}
+
+/*Colors*/
+.bannedUser_c90ddb {
+  background-color: var(--background-secondary); /*Simple Background add to main.css*/
+}
+.statusBubbleOuterAddStatusCursor_d0a252::before, .statusBubbleOuterAddStatusCursor_d0a252::after, .statusBubbleSingleLineWithTextShape_d0a252::before, .statusBubbleSingleLineWithTextShape_d0a252::after, .statusBubbleWithTextPadding_d0a252 {  /*Bubbles*/
+  background-color: var(--profile-gradient-primary-color);
+  filter: drop-shadow(2px 2px 2px rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)));  
+} 
+.container_b64375 { /*badges background*/
+  background: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-5)) !important;
+}
+ .popoverReactionHoverBar_e986d9 {
+  background-color: var(--background-secondary-alt);
 }
