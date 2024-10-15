@@ -150,6 +150,34 @@
 }
 
 
+/*Waves inside the User Popout*/
+.biteSizeOverlayBackground_c69a7b.overlayBackground_c69a7b.card_ae1fa2.activity_b8cc6d::before,
+.biteSizeOverlayBackground_c69a7b.overlayBackground_c69a7b.card_ae1fa2.activity_b8cc6d::after {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 264.5px;
+  bottom: 0px;
+  border: 2px solid rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-4));
+  border-radius: 4px;
+  left: 0;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="240" height="25" viewBox="0 0 284 25"><path d="M283.999 15.2776C228.798 15.2776 211.243 -0.0317305 140.048 -0.000164877C69.0475 -0.000164877 51.2975 15.2776 8.58307e-06 15.2776V24.9998H284C284 24.9998 283.999 18.9392 283.999 15.2776Z"/></svg>');
+}
+.biteSizeOverlayBackground_c69a7b.overlayBackground_c69a7b.card_ae1fa2.activity_b8cc6d::before {
+  z-index: 4;
+  background: var(--profile-gradient-primary-color);
+  filter: saturate(0.75);
+  opacity: 0.35;
+  animation: spotifywave 8s linear infinite;
+}
+.biteSizeOverlayBackground_c69a7b.overlayBackground_c69a7b.card_ae1fa2.activity_b8cc6d::after {
+  z-index: 3;
+  background: var(--profile-gradient-secondary-color);
+  filter: saturate(0.8);
+  opacity: 0.25;
+  animation: spotifywave 12s linear infinite;
+}
+
 
 
 .activityUserPopoutV2-3eKqzY:has([class^=timeBarUserPopoutV2-]) 
