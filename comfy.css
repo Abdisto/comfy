@@ -372,6 +372,7 @@
 .avatar_f94206.biteSize_f94206.clickable_f94206, .avatar_f94206 { /*Avatar "shadow"*/
   filter: drop-shadow(3px 3px 3px rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)));  
 }
+
 @property --angle{ /*Animated Borders*/
   syntax: '<angle>';
   initial-value: 0deg;
@@ -381,8 +382,8 @@
   position: relative;
   z-index: 2;
 }
-.wrapper_c51b4e.avatar_b2ca13::after, .wrapper_c51b4e.avatar_b2ca13::before,
-.wrapper_c51b4e::after, .wrapper_c51b4e::before {
+.container_b2ca13 .wrapper_c51b4e.avatar_b2ca13::after, .container_b2ca13 .wrapper_c51b4e.avatar_b2ca13::before,
+.container_b2ca13 .wrapper_c51b4e::after, .container_b2ca13 .wrapper_c51b4e::before {
   content: '';
   position: absolute;
   height: 100%;
