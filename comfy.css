@@ -382,8 +382,8 @@
   position: relative;
   z-index: 2;
 }
-.container_b2ca13 .wrapper_c51b4e.avatar_b2ca13::after, .container_b2ca13 .wrapper_c51b4e.avatar_b2ca13::before,
-.container_b2ca13 .wrapper_c51b4e::after, .container_b2ca13 .wrapper_c51b4e::before {
+.wrapper_c51b4e.avatar_b2ca13::after, .wrapper_c51b4e.avatar_b2ca13::before,
+.wrapper_c51b4e::after, .wrapper_c51b4e::before {
   content: '';
   position: absolute;
   height: 100%;
@@ -397,14 +397,14 @@
   border-radius: 5px;
   animation: 3s spin linear infinite;
 }
-.header_b8cc6d .wrapper_c51b4e::after, .header_b8cc6d .wrapper_c51b4e::before {
+.wrapper_c51b4e::after, .wrapper_c51b4e::before {
   padding: 3px;
   top: 50%;
   left: 50%;
   background-image: conic-gradient(from var(--angle), transparent 50%, var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color));
   border-radius: 7px;
 }
-.header_b8cc6d .wrapper_c51b4e.avatar_b2ca13::before, .header_b8cc6d .wrapper_c51b4e::before {
+.wrapper_c51b4e.avatar_b2ca13::before, .wrapper_c51b4e::before {
   filter: blur(5px);
 }
 @keyframes spin {
