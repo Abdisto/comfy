@@ -943,3 +943,6 @@ button.item_aa2afb.selectorButton_a78967:hover::before {
  .popoverReactionHoverBar_e986d9 {
   background-color: var(--background-secondary-alt);
 }
+.has-webkit-scrollbar .buttons_bdf0de {
+  margin-right: 6px;
+}
