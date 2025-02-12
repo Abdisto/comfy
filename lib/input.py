@@ -4,6 +4,7 @@ Get parameters from user input.
 
 import configparser
 import glob
+import os
 import os.path
 import sys
 
@@ -105,6 +106,7 @@ def get_params():
 
     print(f"\nFound {len(filenames)} {config['ext']} files in {config['dir']}.")
     if 'y' not in flags:
-        input("Press enter to continue or Ctrl+C to cancel.")
+        if os.environ.get("GITHUB_ACTIONS") != "true":
+            input("Press enter to continue or Ctrl+C to cancel.")
 
     return config["uselocaldiff"], config['location'], filenames
