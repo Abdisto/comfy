@@ -8,15 +8,15 @@
 * @donate https://ko-fi.com/nyria
 */
 
-@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/main.css";
+@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/comfy/main.css";
 
-@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/user-waves-nyan.css";
+@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/comfy/user-waves-nyan.css";
 
 @import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
 
 @import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
 
-@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/banner.css";
+@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/comfy/banner.css";
 
 :root {
   --disable-animations: 2s channel-unread infinite;
