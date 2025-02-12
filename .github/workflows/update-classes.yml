@@ -25,7 +25,7 @@ jobs:
         run: pip install -r requirements.txt || echo "No dependencies needed"
 
       - name: Run ClassUpdate
-        run: python replace.py themes/
+        run: python replace.py comfy/
 
       - name: Commit changes
         run: |
