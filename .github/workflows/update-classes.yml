@@ -5,8 +5,11 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * 1'  # Runs every Monday at midnight UTC
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 0 * * 1' 
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-classes:
@@ -33,3 +36,5 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git diff --staged --quiet || (git commit -m "Auto-update theme class names" && git push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
