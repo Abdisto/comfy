@@ -160,14 +160,7 @@
   stroke: var(--background-primary);
   rx: 3px;
 }
-.clickable__75742 .mask__44b0c.svg__44b0c > .cursorDefault__44b0c rect { /*Changing status causes weird issues with the status box [FIX]*/
-  width: 16px;
-  height: 16px !important;
-  position: absolute !important;
-  x: 12px !important;
-  y: 8px !important;
-  rx: 4px;
-}
+
 :root .wrapper__44b0c .dots__5ad89 {
   overflow: visible;
 }
