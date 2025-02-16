@@ -269,9 +269,9 @@
   top: 0; 
 }
 
-/* 6. change color of new message date to main color */
+/* 6. change color of new message date to accent color */
 :root .isUnread__908e2 .content__908e2 {
-  color: var(--main-color) !important; 
+  color: var(--accent-color) !important; 
 }
 
 .container_c2b141 {
