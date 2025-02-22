@@ -182,6 +182,7 @@
 :root .avatarMasked__0b3c8 {
   mask: none;
   -webkit-mask: none;
+  border-radius: var(--avatar-radius);
 }
 :root .avatarDecoration__44b0c foreignObject[mask="url(#svg-mask-avatar-decoration-status-round-32)"] {
   /*mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="0,0 100,0 100,67.5 75,67.5 72.5,69 70.5,70.5 69,72.5 67.5,75 67.5,100 0,100" fill="black"/></svg>');*/
