@@ -51,12 +51,13 @@
 }
 :root .avatarWrapper__37e49 .wrapper__44b0c > .mask__44b0c > svg > rect {
   mask: none;
-  x: 10;
-  y: 8;
-  width: 10px;
-  height: 10px;
-  rx: var(--status-radius);
+  x: 8;
+  y: 5;
+  height: 12px;
+  width: 12px;
+  rx: var(--status-radius); 
 }
+
 :root .mask__44b0c > svg > rect {
   height: 40px;
 }
@@ -163,13 +164,6 @@
 .clickable__75742 .mask__44b0c.svg__44b0c > .cursorDefault__44b0c rect { /*Changing status causes weird issues with the status box [FIX]*/
   rx: 0px !important;
 }
-.avatarWrapper__37e49 .wrapper__44b0c > .mask__44b0c > svg > rect {
-  x: 9 !important;
-  y: 7 !important;
-  height: 12px !important;
-  width: 12px !important;
-}
-
 :root .wrapper__44b0c .dots__5ad89 {
   overflow: visible;
 }
