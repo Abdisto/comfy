@@ -946,3 +946,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 .has-webkit-scrollbar .buttons__74017 {
   margin-right: 6px;
 }
+
+.buttonSection__1405b {
+  background: var(--background-primary);
+}
