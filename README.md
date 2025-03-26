@@ -11,6 +11,6 @@ You could also reach out to me via. Discord: https://discordapp.com/users/289062
 # Usage
 Just add this to the online themes field In Vencord/Vesktop:
 
-[https://raw.githubusercontent.com/BlacklightYT/comfy/main/comfy.css](https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/comfy.css)
+[https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/comfy.css](https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/comfy.css)
 
 **OR** copy the comfy.css content to the quick css section in the Vecord/Vesktop tab inside your user settings
