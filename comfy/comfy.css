@@ -950,3 +950,95 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 .buttonSection__1405b {
   background: var(--background-primary);
 }
+
+
+.visual-refresh .wrapper_ef3116 {
+  margin-bottom: 10px;
+}
+
+.panels_c48ade {
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  flex: 0 0 auto !important;
+  border-top: 1px solid var(--app-border-frame) !important;
+  border-left: 1px solid var(--app-border-frame) !important;
+  container-type: inline-size !important;
+  width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 20px) !important;
+  margin-left: 75px !important;
+  background-color: var(--background-primary) !important;
+}
+
+.visual-refresh.theme-darker, .visual-refresh .theme-darker {
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-accent: #9f72da;
+  --background-brighter: #2d3550;
+  --theme-base-color: #2d3550; 
+  --bg-overlay: #23283d;
+  --bg-overlay-1: #23283d;
+  --bg-overlay-2: #23283d;
+  --bg-overlay-3: #23283d;
+  --bg-overlay-4: #1e2233;
+  --bg-overlay-chat: #23283d;
+  --bg-base-primary: #23283d;
+  --bg-base-secondary: #23283d;
+  --bg-base-tertiary: #101320;
+  --card-primary-bg: #23283d;
+  --background-base-lowest: #00000000;
+  --background-base-low: #2c2e44;
+  --bg-overlay-floating: var(--background-secondary-alt);
+
+  --red: 163;
+  --green: 66;
+  --blue: 93;
+  --accent-color: rgb(var(--red), var(--green), var(--blue));
+  --accent-color-alpha: rgba(var(--red), var(--green), var(--blue), 0.5);
+  
+  --threshold: 0.5;
+  --r: calc(var(--red) * 0.2126);
+  --g: calc(var(--green) * 0.7152);
+  --b: calc(var(--blue) * 0.0722);
+  --sum: calc(var(--r) + var(--g) + var(--b));
+  --per-brightness: calc(var(--sum) / 255);
+  --accent-color-hsl: hsl(0, 0%, calc((var(--per-brightness) - var(--threshold)) * -1000%));
+  /* Src: https://css-tricks.com/switch-font-color-for-different-backgrounds-with-css/ */
+  
+  --modal-background: #23283d;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #191f2e;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #00000010;
+  --background-modifier-active: #0000001a;
+  --background-modifier-selected: #0000001f;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #101320;
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191f2e;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+  --input-background: #1e2233;
+}
+
+.divider__908e2 {
+  z-index: 0;
+}
+
+.wrapper_f7ecac {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.buttons__74017 {
+  margin-right: var(--space-8) !important;
+}
+
+:root .iconInactive_f34534 {
+  border-radius: calc(var(--server-radius) - 4px) !important;
+}
