@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>Adding colors for the new themes dark theme. Does not apply for any other theme yet, also trying to revert as much as possible. Moving the user profile on the bottom is sketch. Works tho and abides by the rescaling of the div. I have to use !important a lot for some reason, so I need to investigate this further
+
 Vencord Comfy theme by [Nyria](https://github.com/Comfy-Themes/Discord.git) with a few fixes and snippets from the official Comfy Discord server.
 
 Used fork by [Metro420yt](https://github.com/Metro420yt/ClassUpdate) from [Saltssaumure](https://github.com/Saltssaumure/ClassUpdate) inspired by [SyndiShanX](https://github.com/SyndiShanX/Update-Classes) for a github action.
