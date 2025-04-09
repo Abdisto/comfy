@@ -1042,3 +1042,46 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 :root .iconInactive_f34534 {
   border-radius: calc(var(--server-radius) - 4px) !important;
 }
+
+/*Bottom Left*/
+.appAsidePanelWrapper_a3002d .avatarWrapper__37e49 > .wrapper__44b0c.avatar__37e49 > svg.mask__44b0c.svg__44b0c > g > rect {
+  x: 5px;
+  y: 2px;
+}
+.appAsidePanelWrapper_a3002d .wrapper__44b0c.avatar__37e49 > svg.mask__44b0c.svg__44b0c > g > svg > mask > rect {
+  x: 5px;
+  y: 2px;
+  rx: 2px;
+  ry: 2px;
+}
+
+/*Bottom Left Popout*/
+svg.mask__44b0c.svg__44b0c > g > rect {
+  x: 12.5px;
+  y: 8px;
+}
+.cursorDefault__44b0c > mask > rect{
+  rx: 2px;
+  ry: 2px;
+}
+
+/* Right side*/
+.avatar__91a9d > div > svg.mask__44b0c.svg__44b0c > g > svg > rect {
+  mask: none;
+  position: fixed;
+  z-index: 3;
+  width: 12px;
+  height: 10px;
+  x: 7px;
+  y: 5px;
+  rx: 4px;
+  ry: 4px;
+}
+.memberInner__5d473.layout__91a9d > .avatar__91a9d > .wrapper__44b0c > svg.mask__44b0c.svg__44b0c > g > .pointerEvents__44b0c[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"])[fill="transparent"]{
+  x: 7px;
+  y: 4px;
+}
+.memberInner__5d473.layout__91a9d > .avatar__91a9d > .wrapper__44b0c > svg.mask__44b0c.svg__44b0c > g {
+  transform: translateX(17px)
+   translateY(20px);
+}
