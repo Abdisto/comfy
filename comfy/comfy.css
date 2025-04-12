@@ -1085,3 +1085,35 @@ svg.mask__44b0c.svg__44b0c > g > rect {
   transform: translateX(17px)
    translateY(20px);
 }
+
+.content__99f8c > .pointerEvents__44b0c[fill="transparent"] {
+  x: 8px !important;
+  y: 6px !important;
+}
+
+.content__99f8c > .mask__44b0c.svg__44b0c > g > svg{
+  overflow: visible;
+}
+
+.content__99f8c > .mask__44b0c.svg__44b0c > g {
+  transform: translateX(16px)
+    translateY(18px);
+}
+
+.content__99f8c > .avatar__20a53 > div > svg > g > svg > rect {
+  mask: none;
+  height: 12px;
+  width: 12px;
+  rx: 2px;
+  ry: 2px;
+  transform: translateX(8px)
+    translateY(6px);
+}
+
+.cursorDefault__44b0c > mask > rect[fill="black"] {
+  display: none;
+}
+
+.mask__44b0c.svg__44b0c > g > svg > mask > rect[fill="black"] {
+  display: none;
+}
