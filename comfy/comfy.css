@@ -374,7 +374,7 @@
 }
 
 
-.body_af7fb7, .body__5be3e { /*Padding Issue for Activity FIX*/
+.body_ce8328, .body__5be3e { /*Padding Issue for Activity FIX*/
   padding-right: 16px !important
 }
 
@@ -385,7 +385,7 @@
 .overlay__75742:after { /*Profile Avatar Hover FIX*/
   border-radius: var(--avatar-radius);  
 }
-.avatarStack__44b0c.overlay_f9d668::after { /*Profile Avatar Hover FIX (Settings)*/
+.avatarStack__44b0c.overlay_d28e10::after { /*Profile Avatar Hover FIX (Settings)*/
   border-radius: var(--avatar-radius);
 }
 .footer__5be3e { /*Edit Profile Padding FIX*/
