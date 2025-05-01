@@ -212,8 +212,8 @@
 }
 :root .wrapperSimple_cc5dd2,
 :root .wrapper_cc5dd2 foreignObject,
-:root .folderIconWrapper__48112,
-:root .expandedFolderBackground__48112,
+:root .folderPreviewWrapper__48112,
+:root .folderGroupBackground__48112,
 :root .flexChild__7c0ba .avatarUploaderInner_cd0bbe {
   border-radius: var(--server-radius);
 }
