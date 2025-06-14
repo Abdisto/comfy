@@ -1117,3 +1117,13 @@ svg.mask__44b0c.svg__44b0c > g > rect {
 .mask__44b0c.svg__44b0c > g > svg > mask > rect[fill="black"] {
   display: none;
 }
+
+.icon__2ea32, .modeUnreadImportant__2ea32 .icon__2ea32, .modeUnreadImportant__2ea32:hover .icon__2ea32 {
+  color: var(--accent-color);
+}
+
+.modeConnected__2ea32 .icon__2ea32, .modeConnected__2ea32:hover .icon__2ea32, .modeSelected__2ea32 .icon__2ea32, .modeSelected__2ea32:hover .icon__2ea32 {
+  color: var(--accent-color);
+  /* filter: contrast(1.7); */
+}
+
