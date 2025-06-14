@@ -1127,3 +1127,18 @@ svg.mask__44b0c.svg__44b0c > g > rect {
   /* filter: contrast(1.7); */
 }
 
+
+#vc-spotify-player::before,
+#vc-spotify-player::after {
+  width: 100%;
+}
+
+.searchBar__97492 {
+  border: none !important;
+}
+
+.icon_fea832 {
+  position: absolute;
+  top: 3px;
+  left: -6px;
+}
