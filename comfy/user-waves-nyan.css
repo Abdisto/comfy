@@ -75,6 +75,46 @@
   color: hsla(var(--spotify-vencord-text) / 2);
 }
 
+.visual-refresh .vc-spotify-repeat-context, .visual-refresh .vc-spotify-shuffle-on {
+  background-color: var(--accent-color);
+  filter: brightness(0.94)
+}
+
+.visual-refresh .vc-spotify-repeat-context:hover, .visual-refresh .vc-spotify-shuffle-on:hover {
+  background-color: var(--accent-color);
+  filter: brightness(0.87)
+}
+
+.visual-refresh {
+  #vc-spotify-player {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  #vc-spotify-progress-bar>[class^=slider] [class^=barFill] {
+    background-color: var(--accent-color);
+    filter: brightness(0.75);
+  }  
+  #vc-spotify-progress-bar>[class^=slider]:hover [class^=barFill] {
+    background-color: var(--accent-color);
+    filter: brightness(1.1);
+  }
+  #vc-spotify-player 
+  #vc-spotify-progress-bar > [class^=slider] [class^=grabber][class^=grabber] {
+    background-color: var(--spotify-vencord-color);
+    border-color: hsla(var(--spotify-vencord-text) / 1);
+    color: var(--interactive-normal);
+    /* position: relative !important; */
+    top: 16px;
+    /* left: -5px !important; */
+    border-width: 2px;
+    height: 8px !important;
+    width: 7.4px !important;
+    cursor: pointer;
+    /* animation: pulse 1s ease-in-out infinite alternate; */
+    /* display: none; */
+  }
+}
+
 #vc-spotify-player [class^=bar] {
   background: hsla(var(--spotify-vencord-text) / 0.2);
 }
