@@ -75,12 +75,12 @@
   color: hsla(var(--spotify-vencord-text) / 2);
 }
 
-.visual-refresh .vc-spotify-repeat-context, .visual-refresh .vc-spotify-shuffle-on {
+.visual-refresh .vc-spotify-repeat-context, .visual-refresh .vc-spotify-shuffle-on, .visual-refresh .vc-spotify-repeat-track {
   background-color: var(--accent-color);
   filter: brightness(0.94)
 }
 
-.visual-refresh .vc-spotify-repeat-context:hover, .visual-refresh .vc-spotify-shuffle-on:hover {
+.visual-refresh .vc-spotify-repeat-context:hover, .visual-refresh .vc-spotify-shuffle-on:hover, .visual-refresh .vc-spotify-repeat-track:hover {
   background-color: var(--accent-color);
   filter: brightness(0.87)
 }
