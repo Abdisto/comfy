@@ -50,13 +50,13 @@
   --background-accent: #9f72da;
   --background-brighter: #2d3550;
 
-  --neutral-92: var(--background-secondary);
-  --neutral-86: var(--background-primary);
-  --background-base-lowest: var(--background-tertiary);
-  --background-base-lower: var(--background-primary);
-  --chat-background-default: var(--background-secondary-alt);
-  --background-surface-high: var(--background-secondary-alt);
-  --background-gradient-high: var(--background-secondary);
+  --neutral-92: #1e2233;
+  --neutral-86: #23283d;
+  --background-base-lowest: #101320;
+  --background-base-lower: #23283d;
+  --chat-background-default: #191f2e;
+  --background-surface-high: #191f2e;
+  --background-gradient-high: #1e2233;
   
   /*The general accent color, if you want to have a different one 
   you have to modify the --red, --green and --blue vars.
