@@ -42,7 +42,7 @@
   --discord-logo: none;
 }
 
-.theme-dark {
+.visual-refresh.theme-darker, .theme-darker, .visual-refresh.theme-dark, .theme-dark {
   --background-primary: #23283d;
   --background-secondary: #1e2233;
   --background-secondary-alt: #191f2e;
@@ -50,6 +50,14 @@
   --background-accent: #9f72da;
   --background-brighter: #2d3550;
 
+  --neutral-92: var(--background-secondary);
+  --neutral-86: var(--background-primary);
+  --background-base-lowest: var(--background-tertiary);
+  --background-base-lower: var(--background-primary);
+  --chat-background-default: var(--background-secondary-alt);
+  --background-surface-high: var(--background-secondary-alt);
+  --background-gradient-high: var(--background-secondary);
+  
   /*The general accent color, if you want to have a different one 
   you have to modify the --red, --green and --blue vars.
   Why do I make it like that: as you can see in the src, having
