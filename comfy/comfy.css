@@ -938,7 +938,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 }
 
 /*Colors*/
-.bannedUser_cdb2b0 {
+.bannedUser__4b8d8 {
   background-color: var(--background-secondary); /*Simple Background add to main.css*/
 }
 .statusBubbleOuterAddStatusCursor_af9888::before, .statusBubbleOuterAddStatusCursor_af9888::after, .statusBubbleSingleLineWithTextShape_af9888::before, .statusBubbleSingleLineWithTextShape_af9888::after, .statusBubbleWithTextPadding_af9888 {  /*Bubbles*/
