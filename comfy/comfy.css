@@ -101,24 +101,24 @@
 }
 
 /* Avatar go back to the left side */
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {position: static;}
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 {
+:root .panels__5e434 > .container__37e49 > .avatarWrapper__37e49 {position: static;}
+:root .panels__5e434 > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 {
   width: 32px !important;
   height: 32px !important;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 foreignObject {
+:root .panels__5e434 > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 foreignObject {
   width: 32px !important;
   height: 32px !important;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 .pointerEvents__44b0c {
+:root .panels__5e434 > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 .pointerEvents__44b0c {
   x:  22px;
   y: 22px;
 }
-:root section.panels_c48ade > .container__37e49 { 
+:root section.panels__5e434 > .container__37e49 { 
   height: 52px;
   justify-content: space-between;
 }
-:root section.panels_c48ade > .container__37e49 > .flex__7c0ba {
+:root section.panels__5e434 > .container__37e49 > .flex__7c0ba {
   position: static;
   flex-direction: row;
   width: unset;
@@ -126,9 +126,9 @@
   background: transparent;
   padding: 0;
 }
-:root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 + .nameTag__37e49 {display: block;max-width: 85px;}
-:root section.panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645 { margin: auto;}
-:root nav.guilds_c48ade .scroller-2TZvBN, :root nav.guilds_c48ade .scroller_ef3116 { padding-bottom: 0;}
+:root .panels__5e434 > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 + .nameTag__37e49 {display: block;max-width: 85px;}
+:root section.panels__5e434 > .container__37e49 > .flex__7c0ba > .button__67645 { margin: auto;}
+:root nav.guilds__5e434 .scroller-2TZvBN, :root nav.guilds__5e434 .scroller_ef3116 { padding-bottom: 0;}
 :root .chat_f75fb0 .form_f75fb0 { padding-left: 16px;}
 :root .chat_f75fb0 .form_f75fb0 .channelTextArea_f75fb0 .scrollableContainer__74017::after, :root .chat_f75fb0 .form_f75fb0 .wrapper__44df5::after { content: none;} 
 /* Username role background */
@@ -964,7 +964,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
   margin-bottom: 10px;
 }
 
-.panels_c48ade {
+.panels__5e434 {
   display: flex !important;
   flex-direction: column !important;
   overflow: hidden !important;

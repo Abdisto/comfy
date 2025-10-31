@@ -12,7 +12,7 @@
 :root .default_e18686:hover {
   background-color: var(--background-tertiary);
 }
-:root .messageGroupWrapper__45690,
+:root .messageGroupWrapper_e8b59c,
 :root .inputDefault-3FGxgL,
 :root .container-30qY7E,
 :root .cardPrimary_cb7a0e,
@@ -271,7 +271,7 @@
 :root .container-1rn8Cv > img {
   z-index: unset;
 }
-:root .contentWarningPopout_be95d0 {
+:root .contentWarningPopout_d2eed6 {
   background-color: var(--background-primary);
   box-shadow: none;
 }
@@ -283,7 +283,7 @@
 }
 :root .layerContainer-2v_Sit .scroller-3nFW5p > .content__99f8c,
 :root .layerContainer-2v_Sit .scroller-3nFW5p .buttons__74017,
-:root .layerContainer-2v_Sit .scroller-3nFW5p .messagesPopout__45690 {
+:root .layerContainer-2v_Sit .scroller-3nFW5p .messagesPopout_e8b59c {
   padding-right: 10px !important;
 }
 :root .lookFilled-yCfaCM.colorGrey-2iAG-B,
@@ -369,22 +369,22 @@
 :root #MemberCount {
   background-color: var(--background-secondary) !important;
 }
-:root .guilds_c48ade.content-Pph8t6 + .base_c48ade .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {
+:root .guilds__5e434.content-Pph8t6 + .base__5e434 .panels__5e434 > .container__37e49 > .avatarWrapper__37e49 {
   transition: margin-left 300ms linear;
 }
-:root .guilds_c48ade.content-Pph8t6:not(.closed-j55_T-) + .base_c48ade .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {
+:root .guilds__5e434.content-Pph8t6:not(.closed-j55_T-) + .base__5e434 .panels__5e434 > .container__37e49 > .avatarWrapper__37e49 {
   margin-left: 72px;
 }
-:root .vc-bf-folder-sidebar + .base_c48ade .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {
+:root .vc-bf-folder-sidebar + .base__5e434 .panels__5e434 > .container__37e49 > .avatarWrapper__37e49 {
   transition: margin-left 300ms linear;
 }
-:root .vc-bf-folder-sidebar + .base_c48ade .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {
+:root .vc-bf-folder-sidebar + .base__5e434 .panels__5e434 > .container__37e49 > .avatarWrapper__37e49 {
   margin-left: 72px;
 }
-:root .sidebar_c48ade .avatarWrapper__37e49 {
+:root .sidebar__5e434 .avatarWrapper__37e49 {
   transition: margin-left 400ms ease;
 }
-:root .sidebar_c48ade.hideChannelElement .avatarWrapper__37e49 {
+:root .sidebar__5e434.hideChannelElement .avatarWrapper__37e49 {
   margin-left: -240px;
 }
 :root .root-8LYsGj .UserBackgrounds-banner-container {
@@ -557,7 +557,7 @@
   animation: var(--disable-animations), pulse 2s infinite;
   will-change: transform;
 }
-:root .activityPanel_c48ade,
+:root .activityPanel__5e434,
 :root .container_e131a9 {
   border-bottom: none;
 }
