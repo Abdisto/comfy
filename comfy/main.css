@@ -637,26 +637,26 @@
   order: 1;
   margin-left: 4px;
 }
-:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open) ._974928fe84ca9647-searchBar {
+:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .c322aadb96ff59c9-searchBar {
   width: 27px;
   transition: 250ms;
   background-color: transparent;
 }
-:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open) ._974928fe84ca9647-searchBar .iconContainer_fea832 {
+:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .c322aadb96ff59c9-searchBar .iconContainer_fea832 {
   transform: scale(1.3);
   transition: 250ms;
 }
-:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open) ._974928fe84ca9647-searchBar .iconContainer_fea832 .icon_fea832 {
+:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .c322aadb96ff59c9-searchBar .iconContainer_fea832 .icon_fea832 {
   color: var(--interactive-normal);
 }
-:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover ._974928fe84ca9647-searchBar {
+:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .c322aadb96ff59c9-searchBar {
   width: 220px;
   background-color: var(--background-tertiary);
 }
-:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover ._974928fe84ca9647-searchBar .iconContainer_fea832 {
+:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .c322aadb96ff59c9-searchBar .iconContainer_fea832 {
   transform: scale(1);
 }
-:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search ._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover ._974928fe84ca9647-searchBar .iconContainer_fea832 .icon_fea832 {
+:root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search .c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .c322aadb96ff59c9-searchBar .iconContainer_fea832 .icon_fea832 {
   color: var(--text-muted);
 }
 :root ._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search .bd818628221af7aa-searchAnswer,
@@ -664,7 +664,7 @@
   background-color: var(--background-primary);
 }
 :root ._9293f6b2fc12398a-toolbar > a[href="https://support.discord.com"],
-:root ._56fec8e8b8048fe0-searchLearnMore {
+:root ._16eb0bfd5c5a90d1-searchLearnMore {
   display: none;
 }
 :root ._55c999adcf6db265-container {
@@ -677,14 +677,14 @@
 :root ._55c999adcf6db265-container ._55c999adcf6db265-queryContainer {
   background-color: var(--background-tertiary);
 }
-:root ._55c999adcf6db265-container ._56fec8e8b8048fe0-option {
+:root ._55c999adcf6db265-container ._16eb0bfd5c5a90d1-option {
   margin: 0;
   border-radius: 0;
 }
-:root ._55c999adcf6db265-container ._56fec8e8b8048fe0-option::after {
+:root ._55c999adcf6db265-container ._16eb0bfd5c5a90d1-option::after {
   background: linear-gradient(90deg, rgba(54, 57, 63, 0), var(--background-secondary-alt) 80%);
 }
-:root ._55c999adcf6db265-container ._56fec8e8b8048fe0-option.selected-rZcOL- {
+:root ._55c999adcf6db265-container ._16eb0bfd5c5a90d1-option.selected-rZcOL- {
   background: linear-gradient(90deg, rgba(54, 57, 63, 0), var(--background-secondary) 80%);
 }
 :root ._55c999adcf6db265-container .d27f17593b8064c5-calendarPicker .react-datepicker {
