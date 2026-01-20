@@ -1150,3 +1150,7 @@ svg._44b0c28be7879b7b-mask._44b0c28be7879b7b-svg > g > rect {
   top: 3px;
   left: -6px;
 }
+
+:root ._5e434347c823b592-base, :root ._5e434347c823b592-sidebar {
+  background-color: var(--background-secondary-alt);
+}
