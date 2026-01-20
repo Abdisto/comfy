@@ -1047,56 +1047,8 @@ button._3d4a037904e40932-item.c6d3dc100d5624e2-selectorButton:hover::before {
   margin-right: var(--space-8) !important;
 }
 
-:root .f34534e8a5d3ca64-iconInactive {
+.f34534e8a5d3ca64-iconInactive {
   border-radius: calc(var(--server-radius) - 4px) !important;
-}
-
-/*Bottom Left*/
-.a3002d7de5be5280-appAsidePanelWrapper ._37e49614b9f110a9-avatarWrapper > ._44b0c28be7879b7b-wrapper._37e49614b9f110a9-avatar > svg._44b0c28be7879b7b-mask._44b0c28be7879b7b-svg > g > rect {
-  x: 5px;
-  y: 2px;
-}
-.a3002d7de5be5280-appAsidePanelWrapper ._44b0c28be7879b7b-wrapper._37e49614b9f110a9-avatar > svg._44b0c28be7879b7b-mask._44b0c28be7879b7b-svg > g > svg > mask > rect {
-  x: 5px;
-  y: 2px;
-  rx: 2px;
-  ry: 2px;
-}
-
-/*Bottom Left Popout*/
-svg._44b0c28be7879b7b-mask._44b0c28be7879b7b-svg > g > rect {
-  x: 12.5px;
-  y: 8px;
-}
-._44b0c28be7879b7b-cursorDefault > mask > rect{
-  rx: 2px;
-  ry: 2px;
-}
-
-/* Right side*/
-._91a9d7f7e5248a56-avatar > div > svg._44b0c28be7879b7b-mask._44b0c28be7879b7b-svg > g > svg > rect {
-  mask: none;
-  position: fixed;
-  z-index: 3;
-  width: 12px;
-  height: 10px;
-  x: 7px;
-  y: 5px;
-  rx: 4px;
-  ry: 4px;
-}
-._5d473ecff348c314-memberInner._91a9d7f7e5248a56-layout > ._91a9d7f7e5248a56-avatar > ._44b0c28be7879b7b-wrapper > svg._44b0c28be7879b7b-mask._44b0c28be7879b7b-svg > g > ._44b0c28be7879b7b-pointerEvents[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"])[fill="transparent"]{
-  x: 7px;
-  y: 4px;
-}
-._5d473ecff348c314-memberInner._91a9d7f7e5248a56-layout > ._91a9d7f7e5248a56-avatar > ._44b0c28be7879b7b-wrapper > svg._44b0c28be7879b7b-mask._44b0c28be7879b7b-svg > g {
-  transform: translateX(17px)
-   translateY(20px);
-}
-
-._99f8cc7ad4790ce9-content > ._44b0c28be7879b7b-pointerEvents[fill="transparent"] {
-  x: 8px !important;
-  y: 6px !important;
 }
 
 ._99f8cc7ad4790ce9-content > ._44b0c28be7879b7b-mask._44b0c28be7879b7b-svg > g > svg{
