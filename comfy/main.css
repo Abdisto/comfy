@@ -806,3 +806,7 @@
 :root ._5b40bdd67543ba35-container .c69b6db0641110f6-containerDefault {
   padding-left: 32px;
 }
+:root ._5e434347c823b592-base, :root ._5e434347c823b592-sidebar {
+  background-color: var(--background-secondary-alt);
+}
+
