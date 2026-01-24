@@ -99,35 +99,6 @@
   --activity-card-background: #101320;
   --input-background: #1e2233;
 }
-
-/* Avatar go back to the left side */
-:root ._5e434347c823b592-panels > ._37e49614b9f110a9-container > ._37e49614b9f110a9-avatarWrapper {position: static;}
-:root ._5e434347c823b592-panels > ._37e49614b9f110a9-container > ._37e49614b9f110a9-avatarWrapper > ._37e49614b9f110a9-avatar {
-  width: 32px !important;
-  height: 32px !important;
-}
-:root ._5e434347c823b592-panels > ._37e49614b9f110a9-container > ._37e49614b9f110a9-avatarWrapper > ._37e49614b9f110a9-avatar foreignObject {
-  width: 32px !important;
-  height: 32px !important;
-}
-:root ._5e434347c823b592-panels > ._37e49614b9f110a9-container > ._37e49614b9f110a9-avatarWrapper > ._37e49614b9f110a9-avatar ._44b0c28be7879b7b-pointerEvents {
-  x:  22px;
-  y: 22px;
-}
-:root section._5e434347c823b592-panels > ._37e49614b9f110a9-container { 
-  height: 52px;
-  justify-content: space-between;
-}
-:root section._5e434347c823b592-panels > ._37e49614b9f110a9-container > ._7c0bae9243151ddd-flex {
-  position: static;
-  flex-direction: row;
-  width: unset;
-  z-index: unset;
-  background: transparent;
-  padding: 0;
-}
-:root ._5e434347c823b592-panels > ._37e49614b9f110a9-container > ._37e49614b9f110a9-avatarWrapper > ._37e49614b9f110a9-avatar + ._37e49614b9f110a9-nameTag {display: block;max-width: 85px;}
-:root section._5e434347c823b592-panels > ._37e49614b9f110a9-container > ._7c0bae9243151ddd-flex > ._67645e1530f1195d-button { margin: auto;}
 :root nav._5e434347c823b592-guilds .scroller-2TZvBN, :root nav._5e434347c823b592-guilds .ef3116c2da186559-scroller { padding-bottom: 0;}
 :root .f75fb00fb7356cbe-chat .f75fb00fb7356cbe-form { padding-left: 16px;}
 :root .f75fb00fb7356cbe-chat .f75fb00fb7356cbe-form .f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-scrollableContainer::after, :root .f75fb00fb7356cbe-chat .f75fb00fb7356cbe-form ._44df51b030bd5ece-wrapper::after { content: none;} 
@@ -964,7 +935,7 @@ button._3d4a037904e40932-item.c6d3dc100d5624e2-selectorButton:hover::before {
   margin-bottom: 10px;
 }
 
-._5e434347c823b592-panels {
+.panels__5e434 {
   display: flex !important;
   flex-direction: column !important;
   overflow: hidden !important;
