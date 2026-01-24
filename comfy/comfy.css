@@ -935,19 +935,19 @@ button._3d4a037904e40932-item.c6d3dc100d5624e2-selectorButton:hover::before {
   margin-bottom: 10px;
 }
 
-._5e434347c823b592-panels {
-  display: flex !important;
-  flex-direction: column !important;
-  overflow: hidden !important;
-  min-height: 0 !important;
-  min-width: 0 !important;
-  flex: 0 0 auto !important;
-  border-top: 1px solid var(--app-border-frame) !important;
-  border-left: 1px solid var(--app-border-frame) !important;
-  container-type: inline-size !important;
-  width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 20px) !important;
-  margin-left: 75px !important;
-  background-color: var(--background-primary) !important;
+.panels__5e434 {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+  min-width: 0;
+  flex: 0 0 auto;
+  border-top: 1px solid var(--app-border-frame);
+  border-left: 1px solid var(--app-border-frame);
+  container-type: inline-size;
+  width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 20px);
+  margin-left: 75px;
+  background-color: var(--background-primary);
 }
 
 .visual-refresh.theme-darker, .visual-refresh .theme-darker {
