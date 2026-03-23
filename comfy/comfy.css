@@ -41,8 +41,7 @@
   --role-circle: 5px;
   --discord-logo: none;
 }
-
-.visual-refresh.theme-darker, .theme-darker, .visual-refresh.theme-dark, .theme-dark {
+:root.visual-refresh.theme-darker, :root.theme-darker, :root.visual-refresh.theme-dark, :root.theme-dark {
   --background-primary: #23283d;
   --background-secondary: #1e2233;
   --background-secondary-alt: #191f2e;
