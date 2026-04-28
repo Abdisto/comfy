@@ -1076,3 +1076,24 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 .base__5e434 {
   background-color: var(--background-secondary-alt);
 }
+
+/* remove new user left channel "button" */
+.row__70e41 {
+  display: none;
+}
+
+/* fixed message input field padding */
+.chat_f75fb0 .form_f75fb0 {
+  padding: 0px 16px 0px;
+}
+
+/* color for user modal side */
+.inner_c0bea0, .footerButton__272c7 {
+  background-color: var(--background-secondary);
+}
+
+/* slider grabber positioning fix */
+.mini_a562c8 .grabber_a562c8, .slider_a562c8 .grabber_a562c8 {
+  margin-top: calc(-1 * var(--grabber-size) + var(--bar-size) - 9px);
+  border-radius: 4px;
+}
