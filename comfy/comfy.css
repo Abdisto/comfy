@@ -338,7 +338,7 @@
 
 /*User Popout*/
 
-.accountProfileCard_a27e58 mask, .biteSizeInner_c69a7b mask, .fullSizeOuter_c69a7b mask, .userPanelOuter_c69a7b mask { /*Banner Circle mask removal*/
+.accountProfileCard_a9178b mask, .biteSizeInner_c69a7b mask, .fullSizeOuter_c69a7b mask, .userPanelOuter_c69a7b mask { /*Banner Circle mask removal*/
   display: none;
 }
 .iconContainerLeft_c1e9c4.iconContainer_c1e9c4 foreignObject, .item_c1e9c4.colorDefault_c1e9c4 foreignObject { /*Not the status icons*/
@@ -597,10 +597,10 @@
   border-radius: 5px;
 } */
 
-.fieldList_a27e58 .form_d9be46 .submitButton_d9be46, .sortDropdown_f369db, .pill_a2c9e8, .tagsButton_f369db, .lookFilled__201d5.colorPrimary__201d5 {
+.fieldList_a9178b .form_d9be46 .submitButton_d9be46, .sortDropdown_f369db, .pill_a2c9e8, .tagsButton_f369db, .lookFilled__201d5.colorPrimary__201d5 {
   background-color: var(--background-brighter);
 }
-.fieldList_a27e58 .form_d9be46 .submitButton_d9be46, .sortDropdown_f369db, .pill_a2c9e8, .tagsButton_f369db, .lookFilled__201d5.colorPrimary__201d5:hover {
+.fieldList_a9178b .form_d9be46 .submitButton_d9be46, .sortDropdown_f369db, .pill_a2c9e8, .tagsButton_f369db, .lookFilled__201d5.colorPrimary__201d5:hover {
   background-color: var(--background-brighter);
 }
 
