@@ -633,6 +633,9 @@
   background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-secondary));
 }
 
+:root .search__49676 {
+  width: auto
+}
 :root .container__9293f.themed__9293f .search__49676 {
   order: 1;
   margin-left: 4px;
