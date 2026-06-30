@@ -363,28 +363,17 @@
   }
 }
 
-.clickableUsername__63ed3, .nickname__63ed3.user-profile-modal{ /*User Name Gradient*/
+.displayName__26b1f, .nickname__63ed3.user-profile-modal{ /*User Name Gradient*/
   background: linear-gradient(90deg, #feb47b, #ff7e5f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: transition 10s infinite linear;
 }
-.nickname__63ed3, .usernameRow__63ed3 {
-  background: linear-gradient(90deg, #feb47b, #ff7e5f);
-  -webkit-background-clip: text;  
-  filter: drop-shadow(1px 1px 1px #555);
-}
-.userTagUsername__63ed3{
+.userTagUsername__26b1f{
   background: linear-gradient(90deg, #ff7e5f, #feb47b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: transition 10s infinite linear;
-}
-.userTag__63ed3 {
-  font-size: 15px;
-  font-weight: 600;  
-  -webkit-background-clip: text;
-  filter: drop-shadow(1px 1px black);
 }
 
 .px__82f07 {
