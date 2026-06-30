@@ -101,23 +101,6 @@
 :root nav.guilds__5e434 .scroller-2TZvBN, :root nav.guilds__5e434 .scroller_ef3116 { padding-bottom: 0;}
 :root .chat_f75fb0 .form_f75fb0 { padding-left: 16px;}
 :root .chat_f75fb0 .form_f75fb0 .channelTextArea_f75fb0 .scrollableContainer__74017::after, :root .chat_f75fb0 .form_f75fb0 .wrapper__44df5::after { content: none;} 
-/* Username role background */
-
-.cozy_c19a55 .headerText_c19a55 > .username_c19a55::before {
-  content: ''; 
-  width: calc(100% + 10px); 
-  height: 100%;
-  border-radius: 5px;
-  background-color: currentColor; 
-  opacity: 0.2; 
-  position: absolute; 
-  top: 0; 
-  z-index: -1;
-  left: -5px;
-}
-.cozy_c19a55 .headerText_c19a55 > .username_c19a55 {
-  margin-left: 5px;
-}
 
 .messageListItem__5126c {
   -webkit-transform: perspective(1px) translateZ(0);
@@ -792,8 +775,11 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
   cursor: wait;
 }
 
-
-.username_c19a55::before { /*Code Snippet by @nyri4 - Username Background color*/
+/* Snippet by @nyri4 - Username Background color
+   Did not get tracked by the code 
+   Also broken because of "Server tags"
+   We would need overflow: visible for the parent of our pseudo element but than text truncation/wrapping would overlab with those tags
+.username_c19a55::before {
   content: ''; 
   width: calc(100% + 10px); 
   height: 100%;
@@ -808,6 +794,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 .username_c19a55 {
   margin-left: 5px;
 }
+*/
 
 .member__5d473:hover { /*Code Snippet by @krixical - User hover anim.*/
   transition: all 0.2s;
