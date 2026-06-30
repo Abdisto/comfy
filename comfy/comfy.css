@@ -59,11 +59,11 @@
   
   /*The general accent color, if you want to have a different one 
   you have to modify the --red, --green and --blue vars.
-  Why do I make it like that: as you can see in the src, having
+  Why did I do it like that? As you can see in the src, having
   the opportunity to change the background color to anything
   leaves the possibility of hard readability. Thus changing the
   color of the text based on the perceived brightness makes it easier
-  to read. this color gets represented by --accent-color-hsl
+  to read. This color gets represented by --accent-color-hsl
   */
   --red: 163;
   --green: 66;
