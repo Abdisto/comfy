@@ -12,7 +12,7 @@
 :root .default_e18686:hover {
   background-color: var(--background-tertiary);
 }
-:root .messageGroupWrapper_e8b59c,
+:root .messageGroupWrapper__432f4,
 :root .inputDefault-3FGxgL,
 :root .container-30qY7E,
 :root .cardPrimary_cb7a0e,
@@ -283,7 +283,7 @@
 }
 :root .layerContainer-2v_Sit .scroller-3nFW5p > .content__99f8c,
 :root .layerContainer-2v_Sit .scroller-3nFW5p .buttons__74017,
-:root .layerContainer-2v_Sit .scroller-3nFW5p .messagesPopout_e8b59c {
+:root .layerContainer-2v_Sit .scroller-3nFW5p .messagesPopout__432f4 {
   padding-right: 10px !important;
 }
 :root .lookFilled-yCfaCM.colorGrey-2iAG-B,
