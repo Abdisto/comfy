@@ -1,26 +1,26 @@
 
 :root {
-  --disable-animations: 2s channel-unread infinite;
-  --user-buttons-spacing: 8px;
-  --user-buttons-color: rgba(194,166,200,1);
-  --avatar-radius: 5px;
-  --status-radius: 3px;
-  --server-radius: 8px;
-  --colored-emoji: grayscale(0%);
-  --mention-color: #f04747;
-  --unread-color: #7289da;
-  --mention-color-bar: #c66262;
-  --mention-color-background: #c662621f;
-  --mention-color-hover: #c6626226;
-  --chat-buttons:  rgba(194,166,200,1);
-  --online: #43b581;
-  --iddle: #faa61a;
-  --dnd: #f04747;
-  --offline: #747f8d;
-  --streaming: #593695;
-  --playing: #cba6f7; /*The spotify wave and base color*/
-  --role-circle: 5px;
-  --discord-logo: none;
+    --disable-animations: 2s channel-unread infinite;
+    --user-buttons-spacing: 8px;
+    --user-buttons-color: rgba(194,166,200,1);
+    --avatar-radius: 5px;
+    --status-radius: 3px;
+    --server-radius: 8px;
+    --colored-emoji: grayscale(0%);
+    --mention-color: #f04747;
+    --unread-color: #7289da;
+    --mention-color-bar: #c66262;
+    --mention-color-background: #c662621f;
+    --mention-color-hover: #c6626226;
+    --chat-buttons:  rgba(194,166,200,1);
+    --online: #43b581;
+    --iddle: #faa61a;
+    --dnd: #f04747;
+    --offline: #747f8d;
+    --streaming: #593695;
+    --playing: #9b465e; /*The spotify wave and base color*/
+    --role-circle: 5px;
+    --discord-logo: none;
 }
 :root.visual-refresh.theme-darker,
 :root.theme-darker,
@@ -29,12 +29,20 @@
 .visual-refresh.theme-darker,
 .visual-refresh
 .theme-darker {
-    --background-primary: #1e1e2e;
-    --background-secondary: #181825;
-    --background-secondary-alt: #1e1e2e;
-    --background-tertiary: #11111b;
-    --background-accent: #cba6f7;
-    --background-brighter: #313244;
+    --background-primary: #23283d;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-tertiary: #101320;
+    --background-accent: #9f72da;
+    --background-brighter: #2d3550;
+
+    --neutral-92: #1e2233;
+    --neutral-86: #23283d;
+    --background-base-lowest: #1e2233;
+    --background-base-lower: #23283d;
+    --chat-background-default: #191f2e;
+    --background-surface-high: #191f2e;
+    --background-gradient-high: #1e2233;
 
     --theme-base-color: #2d3550;
     --bg-overlay: #23283d;
@@ -51,19 +59,20 @@
     --background-base-low: #2c2e44;
     --bg-overlay-floating: var(--background-secondary-alt);
 
-    --neutral-92: #181825;
-    --neutral-86: #1e1e2e;
-    --background-base-lowest: #181825;
-    --background-base-lower: #1e1e2e;
-    --chat-background-default: #11111b;
-    --background-surface-high: #313244;
-    --background-gradient-high: #181825;
-
-    --red: 203;
-    --green: 166;
-    --blue: 247;
+    /*The general accent color, if you want to have a different one
+    you have to modify the --red, --green and --blue vars.
+    Why did I do it like that? As you can see in the src, having
+    the opportunity to change the background color to anything
+    leaves the possibility of hard readability. Thus changing the
+    color of the text based on the perceived brightness makes it easier
+    to read. This color gets represented by --accent-color-hsl
+    */
+    --red: 163;
+    --green: 66;
+    --blue: 93;
     --accent-color: rgb(var(--red), var(--green), var(--blue));
     --accent-color-alpha: rgba(var(--red), var(--green), var(--blue), 0.5);
+
     --threshold: 0.5;
     --r: calc(var(--red) * 0.2126);
     --g: calc(var(--green) * 0.7152);
@@ -73,21 +82,21 @@
     --accent-color-hsl: hsl(0, 0%, calc((var(--per-brightness) - var(--threshold)) * -1000%));
     /* Src: https://css-tricks.com/switch-font-color-for-different-backgrounds-with-css/ */
 
-    --modal-background: #1e1e2e;
-    --background-mobile-primary: #1e1e2e;
-    --background-mobile-secondary: #181825;
-    --channeltextarea-background: #11111b;
+    --modal-background: #23283d;
+    --background-mobile-primary: #23283d;
+    --background-mobile-secondary: #1e2233;
+    --channeltextarea-background: #191f2e;
     --background-message-hover: transparent;
-    --background-modifier-hover: #cba6f710;
-    --background-modifier-active: #cba6f71a;
-    --background-modifier-selected: #cba6f71f;
-    --deprecated-card-bg: #11111b63;
-    --background-floating: #11111b;
-    --deprecated-quickswitcher-input-background: #11111b;
+    --background-modifier-hover: #00000010;
+    --background-modifier-active: #0000001a;
+    --background-modifier-selected: #0000001f;
+    --deprecated-card-bg: #12141f63;
+    --background-floating: #101320;
+    --deprecated-quickswitcher-input-background: #101320;
     --elevation-low: none;
-    --scrollbar-auto-thumb: #45475a;
-    --scrollbar-auto-track: #181825;
-    --scrollbar-thin-thumb: #313244;
-    --activity-card-background: #11111b;
-    --input-background: #181825;
+    --scrollbar-auto-thumb: #121722;
+    --scrollbar-auto-track: #191f2e;
+    --scrollbar-thin-thumb: #141925;
+    --activity-card-background: #101320;
+    --input-background: #1e2233;
 }
