@@ -18,89 +18,11 @@
 
 @import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/comfy/banner.css";
 
-:root {
-  --disable-animations: 2s channel-unread infinite;
-  --user-buttons-spacing: 8px;
-  --user-buttons-color: rgba(194,166,200,1);
-  --avatar-radius: 5px;
-  --status-radius: 3px;
-  --server-radius: 8px;
-  --colored-emoji: grayscale(0%);
-  --mention-color: #f04747;
-  --unread-color: #7289da;
-  --mention-color-bar: #c66262;
-  --mention-color-background: #c662621f;
-  --mention-color-hover: #c6626226;
-  --chat-buttons:  rgba(194,166,200,1);
-  --online: #43b581;
-  --iddle: #faa61a;
-  --dnd: #f04747;
-  --offline: #747f8d;
-  --streaming: #593695;
-  --playing: #9b465e; /*The spotify wave and base color*/
-  --role-circle: 5px;
-  --discord-logo: none;
-}
-:root.visual-refresh.theme-darker, :root.theme-darker, :root.visual-refresh.theme-dark, :root.theme-dark {
-  --background-primary: #23283d;
-  --background-secondary: #1e2233;
-  --background-secondary-alt: #191f2e;
-  --background-tertiary: #101320;
-  --background-accent: #9f72da;
-  --background-brighter: #2d3550;
+@import "https://raw.githubusercontent.com/BlacklightYT/comfy/main/comfy/colors.css";
 
-  --neutral-92: #1e2233;
-  --neutral-86: #23283d;
-  --background-base-lowest: #1e2233;
-  --background-base-lower: #23283d;
-  --chat-background-default: #191f2e;
-  --background-surface-high: #191f2e;
-  --background-gradient-high: #1e2233;
-  
-  /*The general accent color, if you want to have a different one 
-  you have to modify the --red, --green and --blue vars.
-  Why did I do it like that? As you can see in the src, having
-  the opportunity to change the background color to anything
-  leaves the possibility of hard readability. Thus changing the
-  color of the text based on the perceived brightness makes it easier
-  to read. This color gets represented by --accent-color-hsl
-  */
-  --red: 163;
-  --green: 66;
-  --blue: 93;
-  --accent-color: rgb(var(--red), var(--green), var(--blue));
-  --accent-color-alpha: rgba(var(--red), var(--green), var(--blue), 0.5);
-  
-  --threshold: 0.5;
-  --r: calc(var(--red) * 0.2126);
-  --g: calc(var(--green) * 0.7152);
-  --b: calc(var(--blue) * 0.0722);
-  --sum: calc(var(--r) + var(--g) + var(--b));
-  --per-brightness: calc(var(--sum) / 255);
-  --accent-color-hsl: hsl(0, 0%, calc((var(--per-brightness) - var(--threshold)) * -1000%));
-  /* Src: https://css-tricks.com/switch-font-color-for-different-backgrounds-with-css/ */
-  
-  --modal-background: #23283d;
-  --background-mobile-primary: #23283d;
-  --background-mobile-secondary: #1e2233;
-  --channeltextarea-background: #191f2e;
-  --background-message-hover: transparent;
-  --background-modifier-hover: #00000010;
-  --background-modifier-active: #0000001a;
-  --background-modifier-selected: #0000001f;
-  --deprecated-card-bg: #12141f63;
-  --background-floating: #101320;
-  --deprecated-quickswitcher-input-background: #101320;
-  --elevation-low: none;
-  --scrollbar-auto-thumb: #121722;
-  --scrollbar-auto-track: #191f2e;
-  --scrollbar-thin-thumb: #141925;
-  --activity-card-background: #101320;
-  --input-background: #1e2233;
-}
 :root nav.guilds__5e434 .scroller-2TZvBN, :root nav.guilds__5e434 .scroller_ef3116 { padding-bottom: 0;}
 :root .chat_f75fb0 .form_f75fb0 { padding-left: 16px;}
-:root .chat_f75fb0 .form_f75fb0 .channelTextArea_f75fb0 .scrollableContainer__74017::after, :root .chat_f75fb0 .form_f75fb0 .wrapper__44df5::after { content: none;} 
+:root .chat_f75fb0 .form_f75fb0 .channelTextArea_f75fb0 .scrollableContainer__74017::after, :root .chat_f75fb0 .form_f75fb0 .wrapper__44df5::after { content: none;}
 
 .messageListItem__5126c {
   -webkit-transform: perspective(1px) translateZ(0);
@@ -147,14 +69,14 @@
 }
 
 .cozy_c19a55 .headerText_c19a55 > .username_c19a55::before {
-  content: ''; 
-  width: calc(100% + 10px); 
+  content: '';
+  width: calc(100% + 10px);
   height: 100%;
   border-radius: 5px;
-  background-color: currentColor; 
-  opacity: 0.2; 
-  position: absolute; 
-  top: 0; 
+  background-color: currentColor;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
   z-index: -1;
   left: -5px;
 }
@@ -164,7 +86,7 @@
 
 .typing_b88801 .text_b88801 { display: flex; align-items: center;}
 
-.typing_b88801 .text_b88801 strong { 
+.typing_b88801 .text_b88801 strong {
   margin: 0 3px;
   line-height: 21px;
   animation: slideUp 300ms;
@@ -174,10 +96,10 @@
   100% { margin-top: 0;}
 }
 
-:root {  
+:root {
   /* This isn't shown in my screenshot but I think it looks cool */
   /* --interactive-active: #6FD6A2; */
-  
+
   /* channel colors */
   --hovering-over-channel: var(--background-mentioned);
   --channel-icon: var(--accent-color);
@@ -192,7 +114,7 @@
   /* 1. when pinged, background color  */
   --background-mentioned: #a3425d17;
   --background-mentioned-hover: #a3425d21;
-  
+
   /* 2. color of message you're replying to */
   --background-message-highlight: var(--background-secondary-alt);
 
@@ -200,11 +122,11 @@
   --brand-experiment-10a: #a3425d21;
 
   /* outline of reactions */
-  --brand-experiment: #a3425d49; 
+  --brand-experiment: #a3425d49;
   --brand-experiment-15a: var(--background-mentioned-hover);
 
   /* makes muted text color a little more blue */
-  --interactive-muted: #565c7bb9;  
+  --interactive-muted: #565c7bb9;
 }
 
 /* 1. changing the border color of in-chat mention + reply */
@@ -212,27 +134,27 @@
 :root .message__5126c::before { background-color: var(--main-color); }
 
 /* 1. when hovering over channel mentions */
-:root .channelMention:hover, .mention:hover { 
+:root .channelMention:hover, .mention:hover {
   text-decoration: none !important;
   color: var(--main-color);
-  background-color: var(--background-mentioned-hover); 
+  background-color: var(--background-mentioned-hover);
 }
 
 /* 5. make bg of quick reacts transparent */
 :root .customItem_c1e9c4 .button_f563df {
-  background-color: transparent; 
+  background-color: transparent;
 }
 
 /* 6. change color of NEW bar to main color */
 :root .divider__908e2 .unreadPill__908e2 {
   position: relative;
   color: var(--main-color);
-  top: 0; 
+  top: 0;
 }
 
 /* 6. change color of new message date to accent color */
 :root .isUnread__908e2 .content__908e2 {
-  color: var(--accent-color) !important; 
+  color: var(--accent-color) !important;
 }
 
 .container_c2b141 {
@@ -267,10 +189,10 @@
 }
 
 .button_fb7f94 {
-  border-radius: 5px;    
+  border-radius: 5px;
 }
 
-.form_d9be46 .submitButton_d9be46, 
+.form_d9be46 .submitButton_d9be46,
 .sortDropdown_f369db, .pill_a2c9e8, .tagsButton_f369db,
 .lookFilled__201d5.colorPrimary__201d5  {
   border-radius: 6px;
@@ -331,7 +253,7 @@
   border-radius: 2px;
 }
 .avatar__75742.user-profile-popout.clickable__75742, .avatar__75742 { /*Avatar "shadow"*/
-  filter: drop-shadow(3px 3px 3px rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)));  
+  filter: drop-shadow(3px 3px 3px rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)));
 }
 
 
@@ -344,7 +266,7 @@
 }
 
 .overlay__75742:after { /*Profile Avatar Hover FIX*/
-  border-radius: var(--avatar-radius);  
+  border-radius: var(--avatar-radius);
 }
 .avatarStack__44b0c.overlay_d28e10::after { /*Profile Avatar Hover FIX (Settings)*/
   border-radius: var(--avatar-radius);
@@ -513,7 +435,7 @@
   background-color: var(--background-tertiary);
 }
 
-.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .container_d1d9f3, 
+.fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .container_d1d9f3,
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .button_fb7f94.button__201d5.lookFilled__201d5.colorPrimary__201d5.themeColor_fb7f94.primary_fb7f94.sizeSmall__201d5.grow__201d5,
 .fullSizeOuter_c69a7b.userProfileOuter_c69a7b.userProfileOuterUnthemed_c69a7b.theme-dark.images-dark .fullSizeOverlayBackground_c69a7b {
   background-color: var(--background-secondary);
@@ -601,7 +523,7 @@
 .iconBadge__650eb.isCurrentUserConnected__650eb, .iconBadge__650eb {
   background-color: var(--mention-color);
   border-radius: 5px;
-  /* filter: 
+  /* filter:
     hue-rotate(40deg)
     brightness(1.3)
     drop-shadow(-1px 2px 0 rgba(40, 40, 40 ,0.9)); */
@@ -610,7 +532,7 @@
 .numberBadge__463b7.base__463b7.eyebrow__463b7.baseShapeRound__463b7 {
   border-radius: 5px;
   /* filter:
-    brightness(1.2) 
+    brightness(1.2)
     hue-rotate(45deg)
     drop-shadow(-1px -1px 0 rgba(40, 40, 40 ,0.9)); */
 }
@@ -760,23 +682,23 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
   border-radius: var(--avatar-radius);
 }
 
-.connectedAccountNameText_e6abe8 { 
+.connectedAccountNameText_e6abe8 {
   cursor: wait;
 }
 
 /* Snippet by @nyri4 - Username Background color
-   Did not get tracked by the code 
+   Did not get tracked by the code
    Also broken because of "Server tags"
    We would need overflow: visible for the parent of our pseudo element but than text truncation/wrapping would overlab with those tags
 .username_c19a55::before {
-  content: ''; 
-  width: calc(100% + 10px); 
+  content: '';
+  width: calc(100% + 10px);
   height: 100%;
   border-radius: 5px;
-  background-color: currentColor; 
-  opacity: 0.2; 
-  position: absolute; 
-  top: 0; 
+  background-color: currentColor;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
   z-index: -1;
   left: -5px;
 }
@@ -854,7 +776,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 .content__99f8c > .svg__2338f.mask_a423bd { /*I forgor*/
   position: absolute !important;
   top: 25px !important;
-  left: 25px !important; 
+  left: 25px !important;
 }
 .circularImage__1ce5d, .container__1ce5d img {
   border-radius: 5px;
@@ -889,8 +811,8 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 }
 .statusBubbleOuterAddStatusCursor_af9888::before, .statusBubbleOuterAddStatusCursor_af9888::after, .statusBubbleSingleLineWithTextShape_af9888::before, .statusBubbleSingleLineWithTextShape_af9888::after, .statusBubbleWithTextPadding_af9888 {  /*Bubbles*/
   background-color: var(--profile-gradient-primary-color);
-  filter: drop-shadow(2px 2px 2px rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)));  
-} 
+  filter: drop-shadow(2px 2px 2px rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)));
+}
 .container__8061a { /*badges background*/
   background: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-5)) !important;
 }
@@ -932,7 +854,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
   --background-tertiary: #101320;
   --background-accent: #9f72da;
   --background-brighter: #2d3550;
-  --theme-base-color: #2d3550; 
+  --theme-base-color: #2d3550;
   --bg-overlay: #23283d;
   --bg-overlay-1: #23283d;
   --bg-overlay-2: #23283d;
@@ -952,7 +874,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
   --blue: 93;
   --accent-color: rgb(var(--red), var(--green), var(--blue));
   --accent-color-alpha: rgba(var(--red), var(--green), var(--blue), 0.5);
-  
+
   --threshold: 0.5;
   --r: calc(var(--red) * 0.2126);
   --g: calc(var(--green) * 0.7152);
@@ -961,7 +883,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
   --per-brightness: calc(var(--sum) / 255);
   --accent-color-hsl: hsl(0, 0%, calc((var(--per-brightness) - var(--threshold)) * -1000%));
   /* Src: https://css-tricks.com/switch-font-color-for-different-backgrounds-with-css/ */
-  
+
   --modal-background: #23283d;
   --background-mobile-primary: #23283d;
   --background-mobile-secondary: #1e2233;
