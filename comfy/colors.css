@@ -22,13 +22,34 @@
   --role-circle: 5px;
   --discord-logo: none;
 }
-:root.visual-refresh.theme-darker, :root.theme-darker, :root.visual-refresh.theme-dark, :root.theme-dark {
+:root.visual-refresh.theme-darker,
+:root.theme-darker,
+:root.visual-refresh.theme-dark,
+:root.theme-dark,
+.visual-refresh.theme-darker,
+.visual-refresh
+.theme-darker{
     --background-primary: #1e1e2e;
     --background-secondary: #181825;
     --background-secondary-alt: #1e1e2e;
     --background-tertiary: #11111b;
     --background-accent: #cba6f7;
     --background-brighter: #313244;
+    --theme-base-color: #313244;
+
+    --bg-overlay: #1e1e2e;
+    --bg-overlay-1: #181825;
+    --bg-overlay-2: #1e1e2e;
+    --bg-overlay-3: #313244;
+    --bg-overlay-4: #45475a;
+    --bg-overlay-chat: #1e1e2e;
+    --bg-base-primary: #1e1e2e;
+    --bg-base-secondary: #181825;
+    --bg-base-tertiary: #11111b;
+    --card-primary-bg: #313244;
+    --background-base-lowest: #00000000;
+    --background-base-low: #313244;
+    --bg-overlay-floating: var(--background-secondary-alt);
 
     --neutral-92: #181825;
     --neutral-86: #1e1e2e;
