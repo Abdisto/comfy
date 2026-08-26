@@ -939,3 +939,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
   margin-top: calc(-1 * var(--grabber-size) + var(--bar-size) - 9px);
   border-radius: 4px;
 }
+
+.wrapper_ef3116.guilds__5e434.theme-dark.theme-darker.images-dark {
+  background-color: unset;
+}
