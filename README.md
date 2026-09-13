@@ -11,7 +11,9 @@ You could also reach out to me via. Discord: #abdist
 
 # Usage
 ## 1. Online themes field in Vencord/Vesktop:
-Add the following URL to the Online Themes section in the Vencord/Vesktop tab inside your user settings `[Settings > Vencord Settings > Themes > Online Themes]`:
+Add the following URL to the Online Themes section in the Vencord/Vesktop tab inside your user settings 
+
+`[Settings > Vencord Settings > Themes > Online Themes]:`  
 [https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/comfy.css](https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/comfy.css)
 
 **OR** Add your own list of components you want, e.g.
@@ -30,8 +32,11 @@ https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/colors.css
 https://raw.githubusercontent.com/Abdisto/comfy/refs/heads/catppuccin-mocha-lavender-colors/comfy/colors.css
 ```
 ## 2. QuickCSS field in Vencord/Vesktop:
-Add the following to the QuickCSS section in the Vencord/Vesktop tab inside your user settings `[Settings > Vencord Settings > Vencord > Edit QuickCSS]`:
+Add the following to the QuickCSS section in the Vencord/Vesktop tab inside your user settings 
+
+`[Settings > Vencord Settings > Vencord > Edit QuickCSS]:`  
 `@import "https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/comfy.css";`
+
 Similar to **1.** you can add the components you want, e.g.
 ```
 @import "https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/main.css";
