@@ -1005,3 +1005,47 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 #app-mount>div.appAsidePanelWrapper_a3002d>div>div.app_a3002d>div>div.layers__960e4.layers__160d8>div>div>div>div.bar_c38106.theme-dark.theme-darker.images-dark>div.trailing_c38106>a>div {
   display: none;
 }
+
+/* As always, the online status moves with the g transform when changed. */
+
+#app-mount>div.appAsidePanelWrapper_a3002d>div>div.app_a3002d>div>div.layers__960e4.layers__160d8>div>div>div>div.content__5e434>div.sidebar__5e434.theme-dark.theme-darker.images-dark>section>div.container__37e49.containerRtcOpened__37e49>div.accountPopoutButtonWrapper__37e49.plated__37e49>div.wrapper__44b0c.avatar__37e49>svg.mask__44b0c.svg__44b0c>g>rect {
+  x: 8;
+  y: 6;
+}
+
+#app-mount>div.appAsidePanelWrapper_a3002d>div>div.app_a3002d>div>div.layers__960e4.layers__160d8>div>div>div>div.content__5e434>div.sidebar__5e434.theme-dark.theme-darker.images-dark>section>div.container__37e49.containerRtcOpened__37e49>div.accountPopoutButtonWrapper__37e49.plated__37e49>div.wrapper__44b0c.avatar__37e49>svg.mask__44b0c.svg__44b0c>g>svg>rect {
+  mask: none;
+  width: 10px;
+  height: 10px;
+  x: 10;
+  y: 6;
+  rx: 4px;
+  ry: 4px;
+}
+
+.avatarBorder__44b0c {
+  border-radius: var(--avatar-radius);
+}
+
+#app-mount>div.appAsidePanelWrapper_a3002d>div>div.app_a3002d>div>div.layers__960e4.layers__160d8>div>div>div>div.content__5e434>div.sidebar__5e434.theme-dark.theme-darker.images-dark>section>div.container__37e49.containerRtcOpened__37e49>div.accountPopoutButtonWrapper__37e49.plated__37e49>div.wrapper__44b0c.avatar__37e49>svg.mask__44b0c.svg__44b0c>g>rect {
+  x: 22;
+  y: 22;
+}
+
+
+.cursorDefault__44b0c>rect {
+  mask: none;
+  width: 11px;
+  height: 12px;
+  x: 9.5px;
+  y: 7px;
+}
+
+svg.mask__44b0c.svg__44b0c>g>svg {
+  overflow: visible;
+}
+
+.mask__44b0c.svg__44b0c>g[transform*="translate(14.5, 17)"]>.pointerEvents__44b0c {
+  x: 9.5 !important;
+  y: 7;
+}
