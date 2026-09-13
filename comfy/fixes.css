@@ -985,3 +985,23 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
   margin-top: calc(-1 * var(--grabber-size) + var(--bar-size) - 9px);
   border-radius: 4px;
 }
+
+/* Nitro tab in DM's */
+#app-mount>div.appAsidePanelWrapper_a3002d>div>div.app_a3002d>div>div.layers__960e4.layers__160d8>div>div>div>div.content__5e434>div.sidebar__5e434.theme-dark.theme-darker.images-dark>div.sidebarList__5e434.sidebarListRounded__5e434>nav>div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2>ul>div:nth-child(4)>li>div>a {
+  display: none;
+}
+
+/* Shop tab in DM's */
+#app-mount>div.appAsidePanelWrapper_a3002d>div>div.app_a3002d>div>div.layers__960e4.layers__160d8>div>div>div>div.content__5e434>div.sidebar__5e434.theme-dark.theme-darker.images-dark>div.sidebarList__5e434.sidebarListRounded__5e434>nav>div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2>ul>li:nth-child(5)>div>a {
+  display: none;
+}
+
+/* Quest tab in DM's */
+#app-mount>div.appAsidePanelWrapper_a3002d>div>div.app_a3002d>div>div.layers__960e4.layers__160d8>div>div>div>div.content__5e434>div.sidebar__5e434.theme-dark.theme-darker.images-dark>div.sidebarList__5e434.sidebarListRounded__5e434>nav>div.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2>ul>div.wrapper__553bf>li>div>a {
+  display: none;
+}
+
+/* Help Icon top right */
+#app-mount>div.appAsidePanelWrapper_a3002d>div>div.app_a3002d>div>div.layers__960e4.layers__160d8>div>div>div>div.bar_c38106.theme-dark.theme-darker.images-dark>div.trailing_c38106>a>div {
+  display: none;
+}
