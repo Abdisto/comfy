@@ -37,7 +37,6 @@
 
   --neutral-92: var(--background-secondary);
   --neutral-86: var(--background-primary);
-  --background-base-lowest: var(--background-secondary);
   --background-base-lower: var(--background-primary);
   --chat-background-default: var(--background-secondary-alt);
   --background-surface-high: var(--background-secondary-alt);
