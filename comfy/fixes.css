@@ -1005,6 +1005,9 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 #app-mount>div.appAsidePanelWrapper_a3002d>div>div.app_a3002d>div>div.layers__960e4.layers__160d8>div>div>div>div.bar_c38106.theme-dark.theme-darker.images-dark>div.trailing_c38106>a>div {
   display: none;
 }
+.trailing_c38106 {
+  gap: 0;
+}
 
 /* As always, the online status moves with the g transform when changed. */
 
@@ -1031,7 +1034,6 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
   x: 22;
   y: 22;
 }
-
 
 .cursorDefault__44b0c>rect {
   mask: none;
