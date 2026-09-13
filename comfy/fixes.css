@@ -956,6 +956,7 @@ button.item__3d4a0.selectorButton_c6d3dc:hover::before {
 
 .searchBar_c322aa {
   border: none !important;
+  margin-right: var(--space-8);
 }
 
 .icon_fea832 {
