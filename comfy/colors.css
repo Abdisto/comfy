@@ -1,4 +1,3 @@
-
 :root {
   --disable-animations: 2s channel-unread infinite;
   --user-buttons-spacing: 8px;
@@ -7,88 +6,97 @@
   --status-radius: 3px;
   --server-radius: 8px;
   --colored-emoji: grayscale(0%);
-  --mention-color: #f04747;
+  --mention-color: #f38ba8;
   --unread-color: #7289da;
-  --mention-color-bar: #c66262;
-  --mention-color-background: #c662621f;
-  --mention-color-hover: #c6626226;
-  --chat-buttons:  rgba(194,166,200,1);
-  --online: #43b581;
-  --iddle: #faa61a;
-  --dnd: #f04747;
-  --offline: #747f8d;
-  --streaming: #593695;
-  --playing: #cba6f7; /*The spotify wave and base color*/
+  --mention-color-bar: #f38ba8;
+  --mention-color-background: #f38ba81f;
+  --mention-color-hover: #f38ba826;
+  --chat-buttons: rgba(194,166,200,1);
+  --online: #a6e3a1;
+  --iddle: #f9e2af;
+  --dnd: #f38ba8;
+  --offline: #6c7086;
+  --streaming: #cba6f7;
+  --playing: #cba6f7; /* The spotify wave and base color */
   --role-circle: 5px;
   --discord-logo: none;
 }
+
 :root.visual-refresh.theme-darker,
 :root.theme-darker,
 :root.visual-refresh.theme-dark,
 :root.theme-dark,
 .visual-refresh.theme-darker,
 .visual-refresh
-.theme-darker{
-    --background-primary: #1e1e2e;
-    --background-secondary: #181825;
-    --background-secondary-alt: #1e1e2e;
-    --background-tertiary: #11111b;
-    --background-accent: #cba6f7;
-    --background-brighter: #313244;
-    --theme-base-color: #313244;
+.theme-darker {
+  --background-primary: #1e1e2e;
+  --background-secondary: #181825;
+  --background-secondary-alt: #1e1e2e;
+  --background-tertiary: #11111b;
+  --background-accent: #cba6f7;
+  --background-brighter: #45475a;
 
-    --bg-overlay: #1e1e2e;
-    --bg-overlay-1: #181825;
-    --bg-overlay-2: #1e1e2e;
-    --bg-overlay-3: #313244;
-    --bg-overlay-4: #45475a;
-    --bg-overlay-chat: #1e1e2e;
-    --bg-base-primary: #1e1e2e;
-    --bg-base-secondary: #181825;
-    --bg-base-tertiary: #11111b;
-    --card-primary-bg: #313244;
-    --background-base-lowest: #00000000;
-    --background-base-low: #313244;
-    --bg-overlay-floating: var(--background-secondary-alt);
+  --neutral-92: var(--background-secondary);
+  --neutral-86: var(--background-primary);
+  --background-base-lower: var(--background-primary);
+  --chat-background-default: var(--background-secondary-alt);
+  --background-surface-high: var(--background-secondary-alt);
+  --background-gradient-high: var(--background-secondary);
 
-    --neutral-92: #181825;
-    --neutral-86: #1e1e2e;
-    --background-base-lowest: #181825;
-    --background-base-lower: #1e1e2e;
-    --chat-background-default: #11111b;
-    --background-surface-high: #313244;
-    --background-gradient-high: #181825;
+  --theme-base-color: var(--background-brighter);
+  --bg-overlay: var(--background-primary);
+  --bg-overlay-1: var(--background-primary);
+  --bg-overlay-2: var(--background-primary);
+  --bg-overlay-3: var(--background-primary);
+  --bg-overlay-4: var(--background-secondary);
+  --bg-overlay-chat: var(--background-primary);
+  --bg-base-primary: var(--background-primary);
+  --bg-base-secondary: var(--background-primary);
+  --bg-base-tertiary: var(--background-tertiary);
+  --card-primary-bg: var(--background-primary);
+  --background-base-lowest: #00000000;
+  --background-base-low: #313244;
+  --bg-overlay-floating: var(--background-secondary-alt);
 
-    --red: 203;
-    --green: 166;
-    --blue: 247;
-    --accent-color: rgb(var(--red), var(--green), var(--blue));
-    --accent-color-alpha: rgba(var(--red), var(--green), var(--blue), 0.5);
-  
-    --threshold: 0.5;
-    --r: calc(var(--red) * 0.2126);
-    --g: calc(var(--green) * 0.7152);
-    --b: calc(var(--blue) * 0.0722);
-    --sum: calc(var(--r) + var(--g) + var(--b));
-    --per-brightness: calc(var(--sum) / 255);
-    --accent-color-hsl: hsl(0, 0%, calc((var(--per-brightness) - var(--threshold)) * -1000%));
-    /* Src: https://css-tricks.com/switch-font-color-for-different-backgrounds-with-css/ */
+  /* The general accent color */
+  --red: 203;
+  --green: 166;
+  --blue: 247;
 
-    --modal-background: #1e1e2e;
-    --background-mobile-primary: #1e1e2e;
-    --background-mobile-secondary: #181825;
-    --channeltextarea-background: #11111b;
-    --background-message-hover: transparent;
-    --background-modifier-hover: #cba6f710;
-    --background-modifier-active: #cba6f71a;
-    --background-modifier-selected: #cba6f71f;
-    --deprecated-card-bg: #11111b63;
-    --background-floating: #11111b;
-    --deprecated-quickswitcher-input-background: #11111b;
-    --elevation-low: none;
-    --scrollbar-auto-thumb: #45475a;
-    --scrollbar-auto-track: #181825;
-    --scrollbar-thin-thumb: #313244;
-    --activity-card-background: #11111b;
-    --input-background: #181825;
+  --accent-color: rgb(var(--red), var(--green), var(--blue));
+  --accent-color-alpha: rgba(var(--red), var(--green), var(--blue), 0.5);
+
+  --threshold: 0.5;
+  --r: calc(var(--red) * 0.2126);
+  --g: calc(var(--green) * 0.7152);
+  --b: calc(var(--blue) * 0.0722);
+  --sum: calc(var(--r) + var(--g) + var(--b));
+  --per-brightness: calc(var(--sum) / 255);
+  --accent-color-hsl: hsl(
+    0,
+    0%,
+    calc((var(--per-brightness) - var(--threshold)) * -1000%)
+  );
+
+  --modal-background: var(--background-primary);
+  --background-mobile-primary: var(--background-primary);
+  --background-mobile-secondary: var(--background-secondary);
+  --channeltextarea-background: var(--background-secondary-alt);
+  --background-message-hover: transparent;
+
+  --background-modifier-hover: #cba6f710;
+  --background-modifier-active: #cba6f71a;
+  --background-modifier-selected: #cba6f71f;
+
+  --deprecated-card-bg: #11111b63;
+  --background-floating: var(--background-tertiary);
+  --deprecated-quickswitcher-input-background: var(--background-tertiary);
+
+  --elevation-low: none;
+
+  --scrollbar-auto-thumb: #45475a;
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: #313244;
+  --activity-card-background: var(--background-tertiary);
+  --input-background: var(--background-secondary);
 }
