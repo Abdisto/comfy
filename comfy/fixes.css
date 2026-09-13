@@ -377,7 +377,7 @@
 }
 
 .wrapper_cc5dd2:hover {
-  filter: saturate(1.6) brightness(1.4);
+  filter: saturate(1.4) brightness(1.1);
 }
 
 .vcd-screen-picker-radio[data-checked=true] {
