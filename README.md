@@ -25,11 +25,11 @@ https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css
 https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/banner.css
 https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/ownerCrown.css
 https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/fixes.css
-https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/colors.css
+https://raw.githubusercontent.com/Abdisto/comfy/refs/heads/catppuccin-mocha-lavender-colors/comfy/colors.css
 ```
 **OR** add your own colors.css similar to my branch with Catppuccin colors, e.g.
 ```
-https://raw.githubusercontent.com/Abdisto/comfy/refs/heads/catppuccin-mocha-lavender-colors/comfy/colors.css
+https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/colors.css
 ```
 ## 2. QuickCSS field in Vencord/Vesktop:
 Add the following to the QuickCSS section in the Vencord/Vesktop tab inside your user settings 
@@ -46,7 +46,7 @@ Similar to **1.** you can add the components you want, e.g.
 @import "https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/banner.css";
 @import "https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/ownerCrown.css";
 @import "https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/fixes.css";
-@import "https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/colors.css";
-/* @import "https://raw.githubusercontent.com/Abdisto/comfy/refs/heads/catppuccin-mocha-lavender-colors/comfy/colors.css"; */
+/* @import "https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/colors.css"; */
+@import "https://raw.githubusercontent.com/Abdisto/comfy/refs/heads/catppuccin-mocha-lavender-colors/comfy/colors.css";
 ```
 You can also remove colors.css and add your own colors by adding the contents of colors.css and changing the values.
