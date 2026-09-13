@@ -1,0 +1,74 @@
+@keyframes floatBloomHueRotate {
+    0% {
+        transform: rotateZ(-45deg) translateY(0);
+        filter: drop-shadow(0 0 3px orange) hue-rotate(0deg);
+    }
+    10% {
+        transform: rotateZ(-45deg) translateY(-2px);
+        filter: drop-shadow(0 0 1px orange) hue-rotate(36deg);
+    }
+    20% {
+        transform: rotateZ(-45deg) translateY(0);
+        filter: drop-shadow(0 0 3px orange) hue-rotate(72deg);
+    }
+    30% {
+        transform: rotateZ(-45deg) translateY(-2px);
+        filter: drop-shadow(0 0 1px orange) hue-rotate(108deg);
+    }
+    40% {
+        transform: rotateZ(-45deg) translateY(0);
+        filter: drop-shadow(0 0 3px orange) hue-rotate(144deg);
+    }
+    50% {
+        transform: rotateZ(-45deg) translateY(-2px);
+        filter: drop-shadow(0 0 1px orange) hue-rotate(180deg);
+    }
+    60% {
+        transform: rotateZ(-45deg) translateY(0);
+        filter: drop-shadow(0 0 3px orange) hue-rotate(216deg);
+    }
+    70% {
+        transform: rotateZ(-45deg) translateY(-2px);
+        filter: drop-shadow(0 0 1px orange) hue-rotate(252deg);
+    }
+    80% {
+        transform: rotateZ(-45deg) translateY(0);
+        filter: drop-shadow(0 0 3px orange) hue-rotate(288deg);
+    }
+    90% {
+        transform: rotateZ(-45deg) translateY(-2px);
+        filter: drop-shadow(0 0 1px orange) hue-rotate(324deg);
+    }
+    100% {
+        transform: rotateZ(-45deg) translateY(0);
+        filter: drop-shadow(0 0 3px orange) hue-rotate(360deg);
+    }
+}
+
+.ownerIcon__5d473.icon__5d473 {
+  left: -10px;
+  top: -6px;
+  animation: floatBloomHueRotate 10s ease-in-out infinite;
+}
+
+.inner_c0bea0 {
+  border-radius: 9px;
+  background-color: var(--background-secondary);
+}
+
+.innerContainer_c2a763 {
+  background-color: var(--background-secondary-alt);
+}
+
+.profile__9c3be,
+.container__62dd3 {
+  background-color: var(--background-secondary-alt);
+}
+
+.overlay_c0bea0 {
+  background-color: var(--background-secondary-alt);
+}
+
+.slider_a562c8.slider__65039.mini_a562c8>.track_a562c8>div {
+  margin-top: calc(var(--grabber-size) / -2 + var(--bar-offset) / 2);
+}
