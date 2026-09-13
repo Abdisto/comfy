@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/ownerCrown.css
 https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/fixes.css
 https://raw.githubusercontent.com/Abdisto/comfy/refs/heads/catppuccin-mocha-lavender-colors/comfy/colors.css
 ```
-**OR** add your own colors.css similar to my branch with Catppuccin colors, e.g.
+**OR** add your own colors.css similar to my main branch with the original comfy colors, e.g.
 ```
 https://raw.githubusercontent.com/Abdisto/comfy/main/comfy/colors.css
 ```
