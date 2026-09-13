@@ -7,7 +7,8 @@
   --server-radius: 8px;
   --colored-emoji: grayscale(0%);
   --mention-color: #f04747;
-  --unread-color: #7289da;
+  --unread-color: #f04747;
+  /*--unread-color: #7289da;*/
   --mention-color-bar: #c66262;
   --mention-color-background: #c662621f;
   --mention-color-hover: #c6626226;
