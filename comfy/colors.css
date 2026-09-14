@@ -6,18 +6,18 @@
   --status-radius: 3px;
   --server-radius: 8px;
   --colored-emoji: grayscale(0%);
-  --mention-color: #9c5fe8;
-  --unread-color: #9c5fe8;
-  --mention-color-bar: #f38ba8;
-  --mention-color-background: #f38ba81f;
-  --mention-color-hover: #f38ba826;
-  --chat-buttons: rgba(194,166,200,1);
-  --online: #a6e3a1;
-  --iddle: #f9e2af;
-  --dnd: #f38ba8;
-  --offline: #6c7086;
-  --streaming: #cba6f7;
-  --playing: #cba6f7; /* The spotify wave and base color */
+  --mention-color: #a5a9f7;
+  --unread-color: var(--background-accent);
+  --mention-color-bar: #c66262;
+  --mention-color-background: #c662621f;
+  --mention-color-hover: #c6626226;
+  --chat-buttons:  rgba(194,166,200,1);
+  --online: #43b581;
+  --iddle: #faa61a;
+  --dnd: #f04747;
+  --offline: #747f8d;
+  --streaming: #593695;
+  --playing: #9b465e; /*The spotify wave and base color*/
   --role-circle: 5px;
   --discord-logo: none;
 }
