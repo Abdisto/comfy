@@ -151,9 +151,14 @@
 /* 6. change color of NEW bar to main color */
 :root .divider__908e2 .unreadPill__908e2 {
   position: relative;
-  color: var(--main-color);
+  color: white;
   top: 0;
 }
+/* Change position of NEW bar pill to not overlap date */
+.endCap__908e2 {
+  inset-inline-end: -6px;
+}
+
 
 /* 6. change color of new message date to accent color */
 :root .isUnread__908e2 .content__908e2 {
