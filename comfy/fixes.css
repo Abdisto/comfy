@@ -375,7 +375,7 @@
   left: 2px;
   top: 2px;
   background-color: var(--unread-color) !important;
-  color: black;
+  color: var(--accent-color-hsl);
   border-radius: var(--blib-radius);
 }
 .eyebrow_cf4812 {
