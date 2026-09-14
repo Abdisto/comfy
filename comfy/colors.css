@@ -5,7 +5,7 @@
   --avatar-radius: 5px;
   --status-radius: 3px;
   --server-radius: 8px;
-  --blib-radius: 5px;
+  --blib-radius: 3px;
   --colored-emoji: grayscale(0%);
   --mention-color: #a5a9f7;
   --unread-color: var(--background-accent);
