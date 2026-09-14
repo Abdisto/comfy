@@ -371,12 +371,27 @@
 }
 
 .eyebrow_cf4812.numberBadge__463b7.base__463b7.baseShapeRound__463b7 {
+  position: relative;
+  left: 2px;
+  top: 2px;
   background-color: var(--unread-color) !important;
+  color: black;
+  border-radius: var(--blib-radius);
+}
+.eyebrow_cf4812 {
+  position: relative;
+  background-color: var(--unread-color) !important;
+  color: var(--accent-color-hsl);
+  border-radius: var(--blib-radius);
+  /* outline: 1px solid var(--accent-color-hsl); */
 }
 .iconBadge__650eb.isCurrentUserConnected__650eb,
 .iconBadge__650eb {
   background-color: var(--mention-color);
-  border-radius: 5px;
+  border-radius: var(--blib-radius);
+  position: relative;
+  bottom: 2px;
+  left: 2px;
 }
 
 .wrapper_cc5dd2:hover {
