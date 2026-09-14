@@ -383,7 +383,7 @@
   background-color: var(--unread-color) !important;
   color: var(--accent-color-hsl);
   border-radius: var(--blib-radius);
-  outline: 2px solid var(--background-secondary-alt);
+  outline: 3px solid var(--background-secondary-alt);
 }
 .iconBadge__650eb.isCurrentUserConnected__650eb,
 .iconBadge__650eb {
