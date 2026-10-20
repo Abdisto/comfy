@@ -233,20 +233,20 @@
 :root .slider-32CRPX rect {
   rx: 5px;
 }
-:root .mini__4c059 {
+:root .mini_ec237e {
   height: 25px;
 }
-:root :not(.themedPopout-1TrfdI) > .slider__4c059:not(.mini__4c059) {
+:root :not(.themedPopout-1TrfdI) > .slider_ec237e:not(.mini_ec237e) {
   height: 50px;
 }
-:root .themedPopout-1TrfdI > .slider__4c059 {
+:root .themedPopout-1TrfdI > .slider_ec237e {
   height: 15px;
   margin: 0;
 }
-:root .themedPopout-1TrfdI > .slider__4c059 .bar__4c059 {
+:root .themedPopout-1TrfdI > .slider_ec237e .bar_ec237e {
   top: 0 !important;
 }
-:root .barFill__4c059 {
+:root .barFill_ec237e {
   border-radius: 0 3px 3px 0;
 }
 :root .streamPreview__6da2d {
