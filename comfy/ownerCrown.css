@@ -45,30 +45,30 @@
     }
 }
 
-.ownerIcon__5d473.icon__5d473 {
+.ownerIcon_Iy0c7A.icon_Iy0c7A {
   left: -10px;
   top: -6px;
   animation: floatBloomHueRotate 10s ease-in-out infinite;
 }
 
-.inner_c0bea0 {
+.inner_P1YEjQ {
   border-radius: 9px;
   background-color: var(--background-secondary);
 }
 
-.innerContainer_c2a763 {
+.innerContainer_s6-upr {
   background-color: var(--background-secondary-alt);
 }
 
-.profile__9c3be,
-.container__62dd3 {
+.profile_s3DB6Y,
+.container_FNEkcu {
   background-color: var(--background-secondary-alt);
 }
 
-.overlay_c0bea0 {
+.overlay_P1YEjQ {
   background-color: var(--background-secondary-alt);
 }
 
-.slider_ec237e.slider__65039.mini_ec237e>.track_ec237e>div {
+.slider_p3RiOL.slider__65039.mini_p3RiOL>.track_p3RiOL>div {
   margin-top: calc(var(--grabber-size) / -2 + var(--bar-offset) / 2);
 }
